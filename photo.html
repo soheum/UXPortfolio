@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Work+Sans:100,300,700' rel='stylesheet' type='text/css'>
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/photo.css" type="text/css" />
+
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/portfolio_logo.png" type="imgae/x-icon">
+    <script src="script/photo.js"></script>
+    <meta charset="UTF-8">
+    <title>Soh Heum Hwang-Outside Design</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Soh Heum</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="aboutme.html">About Me</span></a>
+            <a class="nav-item nav-link" href="myworks.html">My Works</a>
+            <a class="nav-item nav-link" href="#">Outside Design<span class="sr-only">(current)</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="splash_work">
+        <h1>Hello! Let me introduce myself.</h1>
+        <h4>
+            <span style="color: #FECB4D; font-weight: 370;">Click the image below</span>
+            to see more photos!</h4>
+    </div>
+</div>
+
+<div id="grid-area">
+
+    <div id="grid-work">
+        <div class="row2">
+            <p class="photo_text">Besides design and exploring with various technology, I enjoy taking photos with a film camera during my free time. The process of taking photos with a film camera and printing them out allows me to
+            value the richness of going slow.</p>
+        </div>
+    </div>
+</div>
+
+<div id="grid-area-2">
+    <div class="row">
+        <div class="col">
+            <img src="img/helsinki/hl_1.jpg" id="changeimg" height="100%" width="100%" onclick="randomImg1();"/>
+        </div>
+        <div class="col">
+            <img src="img/porto/pr_1.JPG" id="changeimg1" height="100%" width="100%" onclick="randomImg2();"/>
+        </div>
+        <div class="col">
+            <img src="img/paris/ps_1.jpeg" id="changeimg2" height="100%" width="100%" onclick="randomImg3();"/>
+        </div>
+
+    </div>
+</div>
+<script src="scripts/photo.js"></script>
+
+</body>
+</html>
