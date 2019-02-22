@@ -49,18 +49,22 @@ h4 {
 .nav-item {
     padding-right: 6%;
 }
+.cv {
+    text-align: center;
+}
 .btn, .btn-outline-light{
-    font-weight: 70;
+    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #414042;
 }
 .btn:hover, .btn-outline-light:hover{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    /*color: #8ED3D0;*/
+    color: #B9C20A;
 }
+
 .navbar-brand {
     float: left;
     padding: 0;
