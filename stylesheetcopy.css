@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media screen and (min-width: 700px){
+  html{
+    font-size: 10px;
+    height: 100vh;
+  }
+
+  .mainbody{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+  }
+  .header{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+  .content{
+    /* margin-top: 4%; */
+  }
+  .container{
+    display: flex;
+    align-items: flex-start;
+		margin-top: 2%;
+  }
+	#firstpage{
+		min-height: 60vh;
+	}
+  .item_left{
+    flex: 4;
+		display: grid;
+		grid-template-rows: repeat(3, 1fr);
+		align-self: end;
+  }
+  .item_right{
+    flex: 6;
+		display: grid;
+		grid-template-rows: repeat(3, 1fr);
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .item_top{
+    margin-bottom: 3%;
+		grid-row: 1;
+  }
+  .item_bottom{
+    height: 100%;
+		grid-row: 3;
+  }
+  .project{
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s ease-out;
+  }
+  .project.fade-in{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .sidenav h6{
+    transform: rotate(-90deg);
+    margin-right: 0%;
+  }
+  .sidenav a{
+    text-decoration: none;
+  }
+  .sidenav {
+    display: flex;
+    opacity: 0;
+    height: 100%;
+    flex-flow: column wrap;
+    width: 6%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    /* overflow-x: hidden; */
+    justify-content: space-around;
+    transition: 0.5s;
+  }
+  .fullpage{
+    transition: margin-left .5s;
+    overflow: hidden;
+  }
+  .menu_btn{
+    margin-left: 0;
+    z-index: 1;
+  }
+  .title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+		margin-top: 0.5%;
+  }
+  #h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #404040;
+  }
+  svg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #404040;
+  }
+  h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #404040;
+  }
+  h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #404040;
+  }
+  h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: #404040;
+  }
+  h6{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #404040;
+    margin-bottom: 1.5%;
+  }
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    font-weight: 100;
+		line-height: 1.3em;
+    color: #404040;
+	}
+}
+@media screen and (max-width: 700px){
+
+}

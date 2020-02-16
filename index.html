@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="stylesheet.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="./js/lib/jquery.min.js"></script>
+	 <!-- <link rel="stylesheet" href="./css/fullpage.css"/>
+  <script type="text/javascript" src="./js/fullpage.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <title>SoHeum Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <h2 id="soheum" style="cursor: pointer;" onclick="window.location.href='./index.html'">So Heum Hwang</h2>
+    <h4 style="float: right; cursor: pointer;" onclick="window.location.href='./about.html'" id="about">about</h4>
+    <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" id="playground" onclick="window.location.href='./playground2.html'">playground</h4>
+    <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" id="works" onclick="window.location.href='./work.html'">works</h4>
+    
+  </header>
+  <div class="mainbody" id="fullpage">
+    <section class="container">
+      <img id = "img_change" class="img_div" src="./img/awards_icon.png" style="display: none;">
+      <div class="hello">
+        <h1>안녕! I'm Soheum.</h1>
+      </div>
+      <div class="description">
+        <h3>Interaction designer & creative coder,</h3><br>
+        <h3>currently studying MFA in Umea Institute of Design</h3>
+      </div>
+      <div class="formore">
+        <h4 id="formore" style="cursor: pointer;" onclick="window.location.href='./work.html'" style="text-decoration: underline;">click here to view projects</h4>
+      </div>
+
+    </section>
+  </div>
+  <!-- <script src="./js/first.js"></script> -->
+  <script>
+
+  document.addEventListener("mousemove", function(e){
+    var myImages1 = new Array();
+    console.log(myImages1);
+    myImages1[0] = "";
+    myImages1[1] = "./img/landing/algo_landing.png";
+    myImages1[2] = "./img/landing/baseball_landing.png";
+    myImages1[3] = "./img/landing/nori_landing.png";
+    myImages1[4] = "./img/landing/data_landing.png";
+    myImages1[5] = "./img/landing/retail_landing.png";
+    myImages1[6] = "./img/landing/baseball_landing.png";
+    myImages1[7] = "./img/landing/comine_landing.png";
+    myImages1[8] = "./img/landing/hexagon_landing.png";
+    myImages1[9] = "./img/landing/insta_landing.png";
+    myImages1[10] = "./img/landing/carui_landing.png";
+    myImages1[11] = "./img/landing/zyga_landing.png";
+    myImages1[12] = "./img/landing/gaja_landing.png";
+
+    var rnd = Math.floor( Math.random() * myImages1.length );
+    if( rnd == 0) {
+        rnd = 1;
+    }
+    if (e.pageX > 100 && e.pageY > 100){
+      document.getElementById("img_change").style.width = 400 + 'px';
+      document.getElementById("img_change").style.display = "block";
+      document.getElementById("img_change").src = myImages1[rnd];
+      var newX = e.clientX + parseInt(100);
+      document.getElementById("img_change").style.top = e.pageY + 10 + 'px';
+      document.getElementById("img_change").style.left = e.pageX + 10 + 'px';
+    }
+
+
+  });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media screen{
+	#playground:hover{
+    font-weight: 500;
+  }
+	#soheum:hover{
+		font-weight: 900;
+	}
+	#playground{
+		font-size: 1.7rem;
+	}
+	#works{
+		font-size: 1.7rem;
+	}
+	#about{
+		font-size: 1.7rem;
+	}
+  #about:hover{
+    font-weight: 500;
+  }
+  #about:hover{
+    font-weight: 500;
+  }
+	#frum:hover{
+    width: 110%;
+  }
+	#prev{
+		cursor: pointer
+	}
+	#prev:hover{
+		font-weight: 500;
+	}
+	#nex{
+		text-align: right;
+		cursor: pointer
+	}
+	#nex:hover{
+		font-weight: 500;
+	}
+	#medium:hover{
+		width: 23%;
+	}
+	.maintitle{
+    padding-top: 10%;
+  }
+	.maincontent{
+		padding-top: 5%;
+	}
+	.subcol{
+		padding-top: 3%;
+	}
+  .mainindex{
+		padding-top: 10%;
+	}
+	.bodycontent{
+		padding-top: 9%;
+	}
+	.smallcol{
+		padding-top: 1%;
+	}
+  html{
+    font-size: 10px;
+    height: 100vh;
+  }
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	video{
+		max-width: 100%;
+    max-height: 100%;
+	}
+  .firstbody{
+		display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+		height: 87vh;
+  }
+  .header{
+		margin-top: 6%;
+    margin-left: 5%;
+		margin-right: 5%;
+    margin-bottom: 2%;
+  }
+  .section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(15, 2fr);
+    align-items: stretch;
+    height: 80vh;
+  }
+
+	#h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 3.8rem;
+		font-weight: 600;
+		color: #404040;
+	}
+  svg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #404040;
+  }
+  h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #404040;
+  }
+  h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #404040;
+  }
+  h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: #404040;
+		/* display: inline; */
+  }
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #404040;
+    margin-bottom: 1.5%;
+  }
+  h6{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #404040;
+    margin-bottom: 1.5%;
+  }
+	p{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    font-weight: 100;
+		line-height: 1.5em;
+    color: #404040;
+	}
+	p strong{
+		font-weight: 300;
+	}
+	#caption{
+		font-style: italic;
+	}
+	h7{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    font-size: 1.7rem;
+    font-weight: 400;
+		line-height: 1.3em;
+    color: #FBD516;
+	}
+	.bigtitle{
+		font-family: "Poppins", sans-serif;
+		font-size: 8.8rem;
+		font-weight: 200;
+		margin-left: 10%;
+		color: #A3CEEC;
+	}
+	.bigtitle2{
+		font-family: "Poppins", sans-serif;
+		font-size: 8.8rem;
+		font-weight: 200;
+		margin-left: 50%;
+		color: #66C08B;
+	}
+	.bigtitle3{
+		font-family: "Poppins", sans-serif;
+		font-size: 8.8rem;
+		font-weight: 200;
+		margin-left: 10%;
+		color: #66C08B;
+	}
+
+
+
+}
+@media screen and (max-width: 700px){
+
+}
