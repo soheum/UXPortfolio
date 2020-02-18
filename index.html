@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="stylesheet.css" rel="stylesheet">
   <script type="text/javascript" src="./js/lib/greensock/TweenMax.min.js"></script>
-  <script type="text/javascript" src="./js/lib/jquery.min.js"></script>
-   <!-- <link rel="stylesheet" href="./css/fullpage.css"/>
+	<script type="text/javascript" src="./js/lib/jquery.min.js"></script>
+	 <!-- <link rel="stylesheet" href="./css/fullpage.css"/>
   <script type="text/javascript" src="./js/fullpage.js"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <title>SoHeum Portfolio</title>
 </head>
-
 <body>
   <header class="header">
     <h2 id="soheum" style="cursor: pointer;" onclick="window.location.href='./index.html'">So Heum Hwang</h2>
     <h4 style="float: right; cursor: pointer;" onclick="window.location.href='./about.html'" id="about">about</h4>
     <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" id="playground" onclick="window.location.href='./playground2.html'">playground</h4>
     <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" id="works" onclick="window.location.href='./work.html'">works</h4>
-
   </header>
+
   <div class="mainbody" id="fullpage">
-    <section class="container">
+
+      <div class="header_mobile">
+        <span class="h4" style="float: left; cursor: pointer;" onclick="window.location.href='./about.html'">about<br></span>
+        <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" onclick="window.location.href='./playground2.html'">playground<br></span>
+        <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" onclick="window.location.href='./work.html'">works</span>
+      </div>
       <img id = "img_change" class="img_div" src="./img/awards_icon.png" style="display: none;">
       <div class="hello">
-        <h1>안녕! I'm Soheum.</h1>
+        <h1 id="title_mobile">안녕! <br><br>I'm Soheum.</h1>
+        <h1 id="title_screen">안녕! I'm Soheum.</h1>
       </div>
       <div class="description">
-        <h3>Interaction designer & creative coder,</h3><br>
-        <h3>currently studying MFA in Umea Institute of Design</h3>
-      </div>
-      <div class="formore">
-        <h4 id="formore" style="cursor: pointer;" onclick="window.location.href='./work.html'" style="text-decoration: underline;">click here to view projects</h4>
+        <h3>Interaction designer & creative coder,</h3>
+        <h3>currently studying MFA in Umea Institute of Design.</h3>
       </div>
 
-    </section>
+      <div class="formore">
+        <h4 id="formore" style="cursor: pointer;" onclick="window.location.href='./work.html'" style="text-decoration: underline;">click here to view projects</h4>
+        <h6 id="secret"><br>Want to know a secret? <br>Try the website on the computer!</h6>
+      </div>
+
+
   </div>
   <!-- <script src="./js/first.js"></script> -->
   <script>
@@ -75,5 +82,4 @@
 
   </script>
 </body>
-
 </html>
