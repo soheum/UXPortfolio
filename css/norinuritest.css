@@ -69,6 +69,9 @@ table {
 	#ixda img:hover{
 		max-width: 45%;
 	}
+	.header_mobile{
+		display: none;
+	}
   html{
     font-size: 10px;
     height: 100vh;
@@ -78,20 +81,12 @@ table {
     max-height: 100%;
 	}
 
-  .firstbody{
-		display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
-		height: 87vh;
-  }
   .header{
 		margin-top: 6%;
     margin-left: 5%;
 		margin-right: 5%;
     margin-bottom: 2%;
   }
-
   .maintitle{
     padding-top: 10%;
   }
@@ -111,16 +106,6 @@ table {
 		padding-top: 1%;
 	}
 
-  .bottom_img{
-    grid-row: 13/15;
-    grid-column: 1/13;
-    background-image: url("img2/norinuri_cover.png");
-		background-repeat: no-repeat;
-		background-size: 100%;
-    margin-left: -5%;
-    margin-right: -5%;
-    margin-bottom: -5%;
-  }
 	#bigtitle{
 		margin-left: 10%;
 	}
@@ -131,8 +116,6 @@ table {
 	.uiimg{
 		padding-top: 5%;
 	}
-
-
 	.ut_title{
 		font-family: "Poppins", sans-serif;
 		font-size: 5.8rem;
@@ -177,18 +160,7 @@ table {
 	#nex:hover{
 		font-weight: 500;
 	}
-	.finalvideo2{
-		grid-column: 1/13;
-    grid-row: 17/29;
-	}
-	.ut_exp{
-		grid-column: 1/7;
-    grid-row: 33/36;
-	}
-	.ut_img{
-		grid-column: 7/13;
-    grid-row: 32/44;
-	}
+
 	.ut_img img{
 		max-height: 100%;
 	}
@@ -291,10 +263,217 @@ table {
 	.responsive {
   	width: 97%;
   	height: auto;
+	}
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
+	.deliverexp{
+		margin-top: 3%;
+	}
+	.ut{
+		padding-bottom: 5%;
+	}
+	#next{
+		text-align: right;
+	}
 }
 
 
-}
-@media screen and (max-width: 700px){
 
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-top: 12%;
+    margin-left: 10%;
+		margin-right: 10%;
+    margin-bottom: 2%;
+  }
+	.row{
+		margin-left: 10%;
+		margin-right: 7%;
+	}
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	.container{
+		width: 100%;
+		/* padding-left: 20%;
+		padding-right: 20%; */
+	}
+	.maintitle{
+		padding-top: 30%;
+	}
+	.mobile{
+		display: block;
+		line-height: 3rem;
+	}
+	.screen{
+		display: none;
+	}
+	.screen iframe{
+		display: none;
+	}
+	.mobile iframe{
+		display: block;
+	}
+	#about{
+		display: none;
+	}
+	#playground{
+		display: none;
+	}
+	#works{
+		display: none;
+	}
+	#soheum{
+		display: none;
+	}
+	.semititle{
+		margin-top: 5%;
+	}
+	.bodycontent{
+		margin-top: 2%;
+	}
+	.responsive{
+		margin-top: -4%;
+	}
+	#discovercontent{
+		margin-top: 4%;
+	}
+	#defineimg{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.deliverexp{
+		margin-top: 0%;
+	}
+	#uivideo{
+		height: 40%;
+	}
+	#utvideo{
+		height: 40%;
+	}
+	.ut_title{
+		font-size: 3rem;
+		letter-spacing: 0rem;
+	}
+	.ut_title2{
+		font-size: 3rem;
+		letter-spacing: 0rem;
+	}
+	.ut{
+		padding-bottom: 0%;
+	}
+	.header_mobile{
+		display: block;
+	}
+	#target{
+		font-weight: 500;
+	}
+	#titleimg {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.bigtitle{
+		font-family: "Poppins", sans-serif;
+		font-size: 3rem;
+		font-weight: 200;
+	}
+	.bigtitle2{
+		font-family: "Poppins", sans-serif;
+		font-size: 3rem;
+		font-weight: 200;
+	}
+	.bigtitle3{
+		font-family: "Poppins", sans-serif;
+		font-size: 3rem;
+		font-weight: 200;
+	}
+	#utresults img{
+		max-width: 100%;
+	}
+
+	#nex{
+		text-align: left;
+		cursor: pointer
+	}
+	#next{
+		text-align: left;
+		margin-top: 7%;
+	}
+	h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2.5rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	.h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	h2{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.7rem;
+		font-weight: 600;
+		display: inline;
+		color: #404040;
+	}
+	h3{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: #404040;
+		line-height: 2rem;
+	}
+	h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		margin-top: 3%;
+		/* display: inline; */
+		font-weight: 400;
+		color: #404040;
+	}
+	.h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.4rem;
+		display: inline;
+		font-weight: 200;
+		color: #404040;
+	}
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #404040;
+  }
+		/* didn't use yet */
+	h6{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin-top: 2%;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	h7{
+		font-size: 1.5rem;
+	}
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+		align-items: flex-end;
+		font-size: 1.3rem;
+		font-weight: 100;
+		line-height: 1.8rem;
+		color: #404040;
+	}
 }
