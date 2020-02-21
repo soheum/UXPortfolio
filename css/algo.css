@@ -47,16 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-/*스마트폰*/
-@media only screen and (min-width: 320px){
-
-}
-/*태블릿*/
-@media only screen and (min-width: 480px){
-
-}
 /*데스크탑*/
-@media only screen and (min-width: 1024px){
+@media screen {
   #playground:hover{
     font-weight: 500;
   }
@@ -73,18 +65,28 @@ table {
     font-weight: 500;
   }
 	#prev{
-		cursor: pointer
+		cursor: pointer;
+		color: #FFFFFF;
+	}
+	#previous{
+		color: #FFFFFF;
 	}
 	#prev:hover{
 		font-weight: 500;
 	}
 	#nex{
 		text-align: right;
-		cursor: pointer
+		cursor: pointer;
+		color: #FFFFFF;
 	}
 	#nex:hover{
 		font-weight: 500;
 	}
+	#next{
+		text-align: right;
+		color: #FFFFFF;
+	}
+
 	.maintitle{
     padding-top: 10%;
   }
@@ -106,7 +108,15 @@ table {
 	.colored{
 		background-color: #171321;
 	}
-
+	.header_mobile{
+		display: none;
+	}
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
   html{
     font-size: 10px;
     height: 100vh;
@@ -133,8 +143,43 @@ table {
 		margin-right: 5%;
     margin-bottom: 2%;
   }
-
-
+	#test_h6{
+		margin-top: 10%;
+	}
+	#test_p{
+		line-height: 2rem;
+	}
+	#view_img{
+		padding-top: 40%;
+	}
+	#view_h6{
+		margin-top: 10%;
+	}
+	#view_p{
+		line-height: 2rem;
+	}
+	#bet_h6{
+		margin-top: 10%;
+	}
+	#bet_p{
+		line-height: 2rem;
+	}
+	#race_h6{
+		margin-top: 10%;
+	}
+	#race_p{
+		line-height: 2rem;
+	}
+	#code_h6{
+		margin-top: 10%;
+	}
+	#code_p{
+		line-height: 2rem;
+	}
+	#exp{
+		position: absolute;
+		bottom: 0;
+	}
 
   svg{
     position: absolute;
@@ -206,8 +251,183 @@ table {
 		color: #FFDE3A;
 	}
 }
-
-/*큰컴퓨터*/
-@media only screen and (min-width: 1400px){
-
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-top: 12%;
+    margin-left: 10%;
+		margin-right: 10%;
+    margin-bottom: 2%;
+  }
+	.row{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	p strong{
+		font-weight: 300;
+	}
+	.container{
+		width: 100;
+	}
+	.maintitle{
+		padding-top: 30%;
+	}
+	.mobile{
+		display: block;
+		line-height: 3rem;
+	}
+	.screen{
+		display: none;
+	}
+	.screen iframe{
+		display: none;
+	}
+	.mobile iframe{
+		display: block;
+	}
+	#about{
+		display: none;
+	}
+	#playground{
+		display: none;
+	}
+	#works{
+		display: none;
+	}
+	#soheum{
+		display: none;
+	}
+	#header_mobile{
+		margin-top: -4%;
+	}
+	.semititle{
+		margin-top: 5%;
+	}
+	.bodycontent{
+		margin-top: 2%;
+	}
+	.responsive{
+		margin-top: -4%;
+	}
+	.header_mobile{
+		display: block;
+	}
+	#test_h6{
+		margin-top: 3%;
+	}
+	#view_h6{
+		margin-top: 3%;
+	}
+	#bet_h6{
+		margin-top: 3%;
+	}
+	#race_h6{
+		margin-top: 3%;
+	}
+	#code_h6{
+		margin-top: 3%;
+	}
+	#view_img{
+		padding-top: 7%;
+	}
+	#test_img{
+		margin-top: 5%;
+	}
+	#bet_img{
+		margin-top: 5%;
+	}
+	#race_img{
+		margin-top: 5%;
+	}
+	#code_img{
+		margin-top: 5%;
+	}
+	#nex{
+		text-align: left;
+		cursor: pointer
+		color: #FFFFFF;
+	}
+	#next{
+		text-align: left;
+		margin-top: 7%;
+		color: #FFFFFF;
+	}
+	#exp{
+		padding-top: 50%;
+	}
+	h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2.5rem;
+		font-weight: 600;
+		color: #FFFFFF;
+	}
+	.h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #FFFFFF;
+	}
+	h2{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.7rem;
+		font-weight: 600;
+		display: inline;
+		color: #FFFFFF;
+	}
+	h3{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: #FFFFFF;
+		line-height: 2rem;
+	}
+	h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		margin-top: 3%;
+		/* display: inline; */
+		font-weight: 400;
+		color: #FFFFFF;
+	}
+	.h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.4rem;
+		display: inline;
+		font-weight: 200;
+		color: #FFFFFF;
+	}
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+		/* didn't use yet */
+	h6{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin-top: 2%;
+		color: #FFFFFF;
+		margin-bottom: 1.5%;
+	}
+	h7{
+		font-size: 1.5rem;
+	}
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+		align-items: flex-end;
+		font-size: 1.3rem;
+		font-weight: 100;
+		line-height: 1.8rem;
+		color: #FFFFFF;
+	}
 }
