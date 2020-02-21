@@ -47,16 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-/*스마트폰*/
-@media only screen and (min-width: 320px){
-
-}
-/*태블릿*/
-@media only screen and (min-width: 480px){
-
-}
 /*데스크탑*/
-@media only screen and (min-width: 1024px){
+@media screen{
   #playground:hover{
     font-weight: 500;
   }
@@ -118,7 +110,15 @@ table {
 		max-width: 100%;
     max-height: 100%;
 	}
-
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
+	.header_mobile{
+		display: none;
+	}
 
   .header{
     margin-top: 6%;
@@ -126,7 +126,9 @@ table {
 		margin-right: 5%;
     margin-bottom: 2%;
   }
-
+	.chapter_title_p{
+		margin-top: 5%;
+	}
   svg{
     position: absolute;
     top: 0;
@@ -196,9 +198,248 @@ table {
 		font-size: 1.7rem;
 		color: #FFDE3A;
 	}
+	#develop_ur1{
+		color: #055C8C;
+		font-weight: 600;
+		font-size: 1.8rem;
+	}
+	#develop_ur1_p{
+		margin-top: 3%;
+	}
+	#develop_ur2{
+		color: #E85124;
+		font-weight: 600;
+		font-size: 1.8rem;
+	}
+	#develop_ur2_p{
+		margin-top: 0.5%;
+	}
+	#develop_ur3{
+		color: #ECC427;
+		font-weight: 600;
+		font-size: 1.8rem;
+		margin-top: 3%;
+	}
+	#develop_ur3_p{
+		margin-top: 0.5%;
+	}
+	#next{
+		text-align: right;
+	}
 }
 
-/*큰컴퓨터*/
-@media only screen and (min-width: 1400px){
-ß
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-top: 12%;
+    margin-left: 10%;
+		margin-right: 10%;
+    margin-bottom: 2%;
+  }
+	.row{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	p strong{
+		font-weight: 300;
+	}
+	.container{
+		/* width: 100; */
+	}
+	.maintitle{
+		padding-top: 30%;
+	}
+	.mobile{
+		display: block;
+		line-height: 3rem;
+	}
+	.screen{
+		display: none;
+	}
+	.screen iframe{
+		display: none;
+	}
+	.mobile iframe{
+		display: block;
+	}
+	#about{
+		display: none;
+	}
+	#playground{
+		display: none;
+	}
+	#works{
+		display: none;
+	}
+	#soheum{
+		display: none;
+	}
+	#header_mobile{
+		margin-top: -4%;
+	}
+	.semititle{
+		margin-top: 5%;
+	}
+	.bodycontent{
+		margin-top: 2%;
+	}
+	.responsive{
+		margin-top: -4%;
+	}
+	.discover_interview{
+		margin-top: 5%;
+	}
+	#discover_interviewfirst{
+		margin-top: 9%;
+	}
+	#discover_interviewsecond{
+		margin-top: 9%;
+	}
+	.defineimg{
+		margin-top: 3%;
+	}
+	#develop1{
+		max-width: 65%;
+		margin-top: 2%;
+	}
+
+	#develop2{
+		max-width: 65%;
+		margin-top: 2%;
+	}
+	#develop3{
+		max-width: 65%;
+		margin-top: 2%;
+	}
+	.discover_interview{
+		margin-top: 6%;
+	}
+	#develop_ur1{
+		font-weight: 400;
+		font-size: 1.5rem;
+	}
+	#develop_ur2{
+		font-weight: 400;
+		font-size: 1.5rem;
+	}
+	#develop_ur3{
+		font-weight: 400;
+		font-size: 1.5rem;
+	}
+	#develop_ur1_p{
+		margin-top: 3%;
+	}
+	#develop_ur2_p{
+		margin-top: 3%;
+	}
+	#develop_ur3_p{
+		margin-top: 3%;
+	}
+	.header_mobile{
+		display: block;
+	}
+	#target{
+		font-weight: 500;
+	}
+	#titleimg {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.chapter{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.chapter_title{
+		margin-top: 5%;
+	}
+	.chapter_title_p{
+		margin-top: 1%;
+	}
+	.feature{
+		margin-top: 5%;
+	}
+
+	#nex{
+		text-align: left;
+		cursor: pointer
+	}
+	#next{
+		text-align: left;
+		margin-top: 7%;
+	}
+	h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2.5rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	.h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	h2{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.7rem;
+		font-weight: 600;
+		display: inline;
+		color: #404040;
+	}
+	h3{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: #404040;
+		line-height: 2rem;
+	}
+	h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		margin-top: 3%;
+		/* display: inline; */
+		font-weight: 400;
+		color: #404040;
+	}
+	.h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.4rem;
+		display: inline;
+		font-weight: 200;
+		color: #404040;
+	}
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #404040;
+  }
+		/* didn't use yet */
+	h6{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin-top: 2%;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	h7{
+		font-size: 1.5rem;
+	}
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+		align-items: flex-end;
+		font-size: 1.3rem;
+		font-weight: 100;
+		line-height: 1.8rem;
+		color: #404040;
+	}
 }
