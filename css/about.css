@@ -106,9 +106,9 @@ table {
   .section{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(20, 2fr);
+    grid-template-rows: repeat(25, 2fr);
     align-items: stretch;
-    height: 80vh;
+    height: 120vh;
   }
   .mainpht{
     grid-column: 5/13;
