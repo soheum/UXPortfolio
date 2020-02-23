@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/bootstrap-grid.css"/>
   <link rel="stylesheet" href="./css/playzyga.css"/>
   <title>SoHeum Portfolio</title>
 </head>
@@ -20,56 +21,66 @@
     <h4 style="float: right; margin-right: 3%; font-weight: 500; cursor: pointer" id="playground" onclick="window.location.href='./playground2.html'">playground</h4>
     <h4 style="float: right; margin-right: 3%; cursor: pointer;" id="works" onclick="window.location.href='./work.html'">works</h4>
   </header>
-  <div class="firstbody">
-    <section class="section">
-        <div class="top_title">
-          <h3>Zyga, <br>share your wheels, spare the ethos</h3>
-          <p style="margin-top: 3%;">wheel register and sharing platform in Helsinki, aimed to  increase the use of already existing resources by encouraging their repair</p>
-        </div>
-        <div class="tools">
-          <h6>TOOLS</h6>
-          <p>Sketch</p>
 
-          <h6 style="margin-top: 7%;">PERIOD</h6>
-          <p>2018. 03 - 08</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 header_mobile" id="header_mobile">
+        <h2 style="cursor: pointer; font-size: 2.3rem;" onclick="window.location.href='./index.html'">So Heum Hwang</h2><br>
+        <span class="h4" style="float: left; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./about.html'">about<br></span>
+        <span class="h4" style="float: left; margin-left: 3%; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./playground2.html'" onclick="window.location.href='./playground2.html'">playground<br></span>
+        <span class="h4" id="target" style="float: left; margin-left: 3%; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./work.html'" onclick="window.location.href='./work.html'">works</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="content col-xl-5 col-lg-5 col-md-12 col-sm-12">
+        <h3>Zyga, <br>share your wheels, spare the ethos</h3>
+        <p style="margin-top: 3%;">wheel register and sharing platform in Helsinki, aimed to  increase the use of already existing resources by encouraging their repair</p>
 
-          <h6 style="margin-top: 7%;">TEAM</h6>
-          <p>Rayleigh Research (Finnish startup in Helsinki) Team</p>
-        </div>
-      <div class="mainpht">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="./img/play_zyga/playzyga1.png" >
+        <h6 class="tool">TOOLS</h6>
+        <p>Sketch</p>
+
+        <h6 style="margin-top: 7%;">PERIOD</h6>
+        <p>2018. 03 - 08</p>
+
+        <h6 style="margin-top: 7%;">TEAM</h6>
+        <p>Rayleigh Research (Finnish startup in Helsinki) Team</p>
+      </div>
+      <div class="content col-xl-7 col-lg-7 col-md-12 col-sm-12">
+        <div class="mainpht">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="./img/play_zyga/playzyga1.png" >
+              </div>
+              <div class="item">
+                <img src="./img/play_zyga/playzyga3.png" >
+              </div>
+              <div class="item">
+                <img src="./img/play_zyga/playzyga2.png" >
+              </div>
             </div>
-            <div class="item">
-              <img src="./img/play_zyga/playzyga3.png" >
-            </div>
-            <div class="item">
-              <img src="./img/play_zyga/playzyga2.png" >
-            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
       </div>
-    </section>
-
+    </div>
   </div>
+
   <script src="./js/playdata.js"></script>
 </body>
 </html>
