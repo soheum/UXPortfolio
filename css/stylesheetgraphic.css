@@ -85,6 +85,14 @@ table {
 	#next{
 		text-align: right;
 	}
+	/* .cover{
+		overflow: visible;
+		position:relative;
+    right: 5%;
+	}
+	.cover img{
+		max-width: 115%;
+	} */
 
 	.maintitle{
     padding-top: 10%;
