@@ -102,6 +102,8 @@ table {
 	}
 	.subcol{
 		padding-top: 3%;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
   .mainindex{
 		padding-top: 10%;
@@ -111,6 +113,8 @@ table {
 	}
 	.smallcol{
 		padding-top: 1%;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 	.mobile{
 		display: none;
@@ -219,6 +223,9 @@ table {
     font-weight: 200;
 		line-height: 1.5em;
     color: #404040;
+	}
+	p.strong{
+		font-weight: 400;
 	}
 	h7{
 		font-family: "IBM Plex Serif", serif;

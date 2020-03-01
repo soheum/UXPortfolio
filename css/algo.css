@@ -86,7 +86,6 @@ table {
 		text-align: right;
 		color: #FFFFFF;
 	}
-
 	.maintitle{
     padding-top: 10%;
   }
@@ -235,7 +234,7 @@ table {
     color: #FFFFFF;
 	}
   p strong{
-    font-weight: 300;
+    font-weight: 400;
   }
 	h7{
 		font-family: "Poppins", sans-serif;
