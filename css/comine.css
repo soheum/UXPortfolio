@@ -80,6 +80,9 @@ table {
 	#nex:hover{
 		font-weight: 500;
 	}
+	#next{
+		text-align: right;
+	}
   html{
     font-size: 10px;
     height: 100vh;
@@ -117,6 +120,17 @@ table {
 	.subcol{
 		padding-top: 3%;
 	}
+	.subcol2{
+		padding-top: 5%;
+	}
+	#macro{
+		color: #2b2c69;
+		font-weight: 400;
+	}
+	#micro{
+		color: #ef7970;
+		font-weight: 400;
+	}
   .mainindex{
 		padding-top: 10%;
 	}
@@ -133,7 +147,7 @@ table {
 		display: none;
 	}
   .responsive {
-  	width: 97%;
+  	width: 100%;
   	height: auto;
   }
 	.proto_title{
@@ -141,6 +155,22 @@ table {
 	}
 	.deliverfeat{
 		margin-top: 3%;
+	}
+	.caption{
+		margin-top: 2%;
+	}
+	.defineint{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.defineint2{
+		margin-top: 5%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.defineint_btw{
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
   svg{
