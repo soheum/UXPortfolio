@@ -131,10 +131,16 @@ table {
 		margin-right: 5%;
     margin-bottom: 2%;
   }
+	.chapter_title{
+		text-align: center;
+	}
 	.chapter_title_p{
 		margin-top: 5%;
 	}
-  svg{
+	.chapter1{
+		margin-left: 2%;
+	}
+	svg{
     position: absolute;
     top: 0;
     z-index: -1;
@@ -147,7 +153,7 @@ table {
   }
   h2{
     font-family: "Poppins", sans-serif;
-    font-size: 2.3rem;
+    font-size: 27px;
     font-weight: 800;
 		display: inline;
     color: #404040;
@@ -167,24 +173,27 @@ table {
   }
 	h5{
     font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
+    font-size: 21px;
     font-weight: 500;
     color: #404040;
     margin-bottom: 1.5%;
   }
   h6{
     font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     color: #404040;
-    margin-bottom: 1.5%;
+    margin-bottom: 3.5%;
   }
+	#team{
+		margin-bottom: 6%;
+	}
 	p{
 		font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 100;
-		line-height: 1.5em;
+		line-height: 1.9;
     color: #404040;
 	}
   p strong{
@@ -193,7 +202,7 @@ table {
 	h7{
 		font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    font-size: 1.7rem;
+    font-size: 21px;
     font-weight: 400;
 		line-height: 1.3em;
     color: #F5B8B8;
@@ -205,28 +214,21 @@ table {
 	}
 	#develop_ur1{
 		color: #055C8C;
-		font-weight: 600;
-		font-size: 1.8rem;
+		font-weight: 300;
+		font-size: 21px;
 	}
 	#develop_ur1_p{
 		margin-top: 3%;
 	}
 	#develop_ur2{
 		color: #E85124;
-		font-weight: 600;
-		font-size: 1.8rem;
-	}
-	#develop_ur2_p{
-		margin-top: 0.5%;
+		font-weight: 300;
+		font-size: 21px;
 	}
 	#develop_ur3{
 		color: #ECC427;
-		font-weight: 600;
-		font-size: 1.8rem;
-		margin-top: 3%;
-	}
-	#develop_ur3_p{
-		margin-top: 0.5%;
+		font-weight: 300;
+		font-size: 21px;
 	}
 	#next{
 		text-align: right;
@@ -269,6 +271,9 @@ table {
 	}
 	.mobile iframe{
 		display: block;
+	}
+	.chapter1{
+		margin-left: 0%;
 	}
 	#about{
 		display: none;

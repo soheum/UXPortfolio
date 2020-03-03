@@ -74,11 +74,14 @@ table {
 	.header_mobile{
 		display: none;
 	}
+	.mainpht{
+		margin-top: 6%;
+	}
   .mainpht img{
     max-width: 100%;
   }
 	.tool{
-		margin-top: 18%;
+		margin-top: 10%;
 	}
 	.container:before, .container:after {
   display: table;
@@ -99,12 +102,7 @@ table {
 		max-width: 100%;
 	}
 
-  svg{
-    position: absolute;
-    top: 0;
-    z-index: -1;
-  }
-  h1{
+	h1{
     font-family: "Poppins", sans-serif;
     font-size: 3.8rem;
     font-weight: 600;
@@ -119,10 +117,10 @@ table {
   }
   h3{
     font-family: "Poppins", sans-serif;
-    font-size: 2.1rem;
-    font-weight: 600;
+		font-size: 23px;
+		font-weight: 600;
     color: #404040;
-    line-height: 2.4rem;
+    line-height: 1.9;
   }
   h4{
     font-family: "Poppins", sans-serif;
@@ -139,17 +137,17 @@ table {
   }
   h6{
     font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
+		font-size: 16px;
+		font-weight: 600;
     color: #404040;
     margin-bottom: 1.5%;
   }
 	p{
 		font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    font-size: 1.5rem;
-    font-weight: 100;
-		line-height: 1.5em;
+		font-size: 18px;
+		font-weight: 100;
+		line-height: 1.9;
     color: #404040;
 	}
   p strong{

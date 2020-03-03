@@ -156,12 +156,7 @@ table {
 		font-weight: 600;
 		color: #404040;
 	}
-  svg{
-    position: absolute;
-    top: 0;
-    z-index: -1;
-  }
-  h1{
+	h1{
     font-family: "Poppins", sans-serif;
     font-size: 3.8rem;
     font-weight: 600;
@@ -169,8 +164,9 @@ table {
   }
   h2{
     font-family: "Poppins", sans-serif;
-    font-size: 2.3rem;
-    font-weight: 800;
+		font-size: 27px;
+		font-weight: 800;
+		display: inline;
     color: #404040;
   }
   h3{
@@ -188,61 +184,39 @@ table {
   }
 	h5{
     font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
+		font-size: 21px;
+		font-weight: 500;
     color: #404040;
     margin-bottom: 1.5%;
   }
   h6{
     font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
+		font-size: 16px;
+		font-weight: 600;
     color: #404040;
     margin-bottom: 1.5%;
   }
 	p{
 		font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    font-size: 1.5rem;
-    font-weight: 100;
-		line-height: 1.5em;
+		font-size: 18px;
+		font-weight: 100;
+		line-height: 1.9;
     color: #404040;
 	}
-	p strong{
-		font-weight: 300;
-	}
-	#caption{
-		font-style: italic;
-	}
+  p strong{
+    font-weight: 300;
+  }
 	h7{
 		font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    font-size: 1.7rem;
-    font-weight: 400;
+		font-size: 21px;
+		font-weight: 400;
 		line-height: 1.3em;
-    color: #FBD516;
+		text-align: center;
+    color: #F37C71;
 	}
-	.bigtitle{
-		font-family: "Poppins", sans-serif;
-		font-size: 8.8rem;
-		font-weight: 200;
-		margin-left: 10%;
-		color: #A3CEEC;
-	}
-	.bigtitle2{
-		font-family: "Poppins", sans-serif;
-		font-size: 8.8rem;
-		font-weight: 200;
-		margin-left: 50%;
-		color: #66C08B;
-	}
-	.bigtitle3{
-		font-family: "Poppins", sans-serif;
-		font-size: 8.8rem;
-		font-weight: 200;
-		margin-left: 10%;
-		color: #66C08B;
-	}
+
 
 
 
