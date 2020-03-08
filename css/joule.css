@@ -89,6 +89,10 @@ table {
 	.subcol{
 		padding-top: 3%;
 	}
+	.subcol2{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
   .mainindex{
 		padding-top: 10%;
 	}
@@ -98,10 +102,35 @@ table {
 	.smallcol{
 		padding-top: 1%;
 	}
-	.exhibition{
-		padding-left: 5px;
-		padding-right: 5px;
-		margin-top: 3%;
+	.abstract img{
+		max-width: 50%;
+		margin-left: 25%;
+	}
+	.abstract p{
+		line-height: 1.6;
+	}
+	.sustain p{
+		line-height: 1.6;
+	}
+	.geometric p{
+		line-height: 1.6;
+	}
+	.sustain img{
+		max-width: 35%;
+		margin-left: 35%;
+	}
+	.geometric img{
+		max-width: 50%;
+		margin-left: 25%;
+	}
+	.sustain h5{
+		margin-top: 5%;
+	}
+	.abstract h5{
+		margin-top: -2%;
+	}
+	.geometric h5{
+		margin-top: 2%;
 	}
   html{
     font-size: 10px;
@@ -196,7 +225,7 @@ table {
     font-size: 21px;
     font-weight: 400;
 		line-height: 1.3em;
-    color: #F5B8B8;
+    color: #adb885;
 	}
 	#selected{
 		font-weight: 400;

@@ -17,8 +17,8 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#66C18B');
       $('#norinuri').fadeIn();
-      $('.norinuri h4').css('color', '#FFFFFF');
-      $('.norinuri h4').css('font-weight', '600');
+      $('.norinuri h3').css('color', '#FFFFFF');
+      $('.norinuri h3').css('font-weight', '600');
       $('.norinuri h6').css('color', '#FFFFFF');
       $('.norinuri h6').css('font-weight', '300');
     });
@@ -26,8 +26,8 @@ $(document).ready(function() {
     function(){
       $(document.body).css('background-color', '#FFFFFF');
       $('#norinuri').fadeOut();
-      $('.norinuri h4').css('color', '#404040');
-      $('.norinuri h4').css('font-weight', '300');
+      $('.norinuri h3').css('color', '#404040');
+      $('.norinuri h3').css('font-weight', '300');
       $('.norinuri h6').css('color', '#404040');
       $('.norinuri h6').css('font-weight', '100');
     }
@@ -40,16 +40,16 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#EFD2D3');
       $('#journey').fadeIn();
-      $('.journey h4').css('color', '#FFFFFF');
-      $('.journey h4').css('font-weight', '600');
+      $('.journey h3').css('color', '#FFFFFF');
+      $('.journey h3').css('font-weight', '600');
       $('.journey h6').css('color', '#FFFFFF');
       $('.journey h6').css('font-weight', '300');
     });
   $('.journey').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('.journey h4').css('color', '#404040');
-      $('.journey h4').css('font-weight', '300');
+      $('.journey h3').css('color', '#404040');
+      $('.journey h3').css('font-weight', '300');
       $('.journey h6').css('color', '#404040');
       $('.journey h6').css('font-weight', '100');
       $('#journey').fadeOut();
@@ -63,16 +63,16 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#F3796F');
       $('#comine').fadeIn();
-      $('.comine h4').css('color', '#FFFFFF');
-      $('.comine h4').css('font-weight', '600');
+      $('.comine h3').css('color', '#FFFFFF');
+      $('.comine h3').css('font-weight', '600');
       $('.comine h6').css('color', '#FFFFFF');
       $('.comine h6').css('font-weight', '300');
     });
   $('.comine').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('.comine h4').css('color', '#404040');
-      $('.comine h4').css('font-weight', '300');
+      $('.comine h3').css('color', '#404040');
+      $('.comine h3').css('font-weight', '300');
       $('.comine h6').css('color', '#404040');
       $('.comine h6').css('font-weight', '100');
       $('#comine').fadeOut();
@@ -86,16 +86,16 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#2F2A51');
       $('#algo').fadeIn();
-      $('.algo h4').css('color', '#FFFFFF');
-      $('.algo h4').css('font-weight', '600');
+      $('.algo h3').css('color', '#FFFFFF');
+      $('.algo h3').css('font-weight', '600');
       $('.algo h6').css('color', '#FFFFFF');
       $('.algo h6').css('font-weight', '300');
     });
   $('.algo').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('.algo h4').css('color', '#404040');
-      $('.algo h4').css('font-weight', '300');
+      $('.algo h3').css('color', '#404040');
+      $('.algo h3').css('font-weight', '300');
       $('.algo h6').css('color', '#404040');
       $('.algo h6').css('font-weight', '100');
       $('#algo').fadeOut();
@@ -109,16 +109,16 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#B44724');
       $('#graphic').fadeIn();
-      $('.graphic h4').css('color', '#FFFFFF');
-      $('.graphic h4').css('font-weight', '600');
+      $('.graphic h3').css('color', '#FFFFFF');
+      $('.graphic h3').css('font-weight', '600');
       $('.graphic h6').css('color', '#FFFFFF');
       $('.graphic h6').css('font-weight', '300');
     });
   $('.graphic').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('.graphic h4').css('color', '#404040');
-      $('.graphic h4').css('font-weight', '300');
+      $('.graphic h3').css('color', '#404040');
+      $('.graphic h3').css('font-weight', '300');
       $('.graphic h6').css('color', '#404040');
       $('.graphic h6').css('font-weight', '100');
       $('#graphic').fadeOut();
@@ -131,16 +131,16 @@ $(document).ready(function() {
     function(e){
       $(document.body).css('background-color', '#79797a');
       $('#retail').fadeIn();
-      $('.retail h4').css('color', '#FFFFFF');
-      $('.retail h4').css('font-weight', '600');
+      $('.retail h3').css('color', '#FFFFFF');
+      $('.retail h3').css('font-weight', '600');
       $('.retail h6').css('color', '#FFFFFF');
       $('.retail h6').css('font-weight', '300');
     });
   $('.retail').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('.retail h4').css('color', '#404040');
-      $('.retail h4').css('font-weight', '300');
+      $('.retail h3').css('color', '#404040');
+      $('.retail h3').css('font-weight', '300');
       $('.retail h6').css('color', '#404040');
       $('.retail h6').css('font-weight', '100');
       $('#retail').fadeOut();

@@ -84,6 +84,9 @@ table {
     overflow: hidden;
 		height: 80vh;
   }
+	.smalltitle{
+		margin-top: 1%;
+	}
   .norinuri{
     grid-row: 3/4;
 		grid-column: 1/5;
@@ -91,6 +94,7 @@ table {
   }
   #norinuri{
     position: absolute;
+		margin-left: 10%;
     max-height: 100%;
   }
   .journey{
@@ -101,6 +105,7 @@ table {
   #journey{
     position: absolute;
     max-height: 100%;
+		margin-left: 10%;
   }
   .comine{
     grid-row: 5/6;
@@ -110,6 +115,7 @@ table {
   #comine{
     position: absolute;
     max-height: 100%;
+		margin-left: 12%;
   }
   .algo{
     grid-row: 6/7;
@@ -119,6 +125,7 @@ table {
   #algo{
     position: absolute;
     max-height: 100%;
+		margin-left: 10%;
   }
   .graphic{
     grid-row: 7/8;
@@ -128,6 +135,7 @@ table {
   #graphic{
     position: absolute;
     max-height: 100%;
+		margin-left: 10%;
   }
 	.retail{
 		grid-row: 8/9;
