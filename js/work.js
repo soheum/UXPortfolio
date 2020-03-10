@@ -38,8 +38,8 @@ $(document).ready(function() {
 
   $('.journey').mousemove(
     function(e){
-      $(document.body).css('background-color', '#EFD2D3');
-      $('#journey').fadeIn();
+      $(document.body).css('background-color', '#F3796F');
+      $('#comine').fadeIn();
       $('.journey h3').css('color', '#FFFFFF');
       $('.journey h3').css('font-weight', '600');
       $('.journey h6').css('color', '#FFFFFF');
@@ -52,7 +52,7 @@ $(document).ready(function() {
       $('.journey h3').css('font-weight', '300');
       $('.journey h6').css('color', '#404040');
       $('.journey h6').css('font-weight', '100');
-      $('#journey').fadeOut();
+      $('#comine').fadeOut();
     }
   );
   $('.journey').on('click', function(){
@@ -61,8 +61,8 @@ $(document).ready(function() {
 
   $('.comine').mousemove(
     function(e){
-      $(document.body).css('background-color', '#F3796F');
-      $('#comine').fadeIn();
+      $(document.body).css('background-color', '#EFD2D3');
+      $('#journey').fadeIn();
       $('.comine h3').css('color', '#FFFFFF');
       $('.comine h3').css('font-weight', '600');
       $('.comine h6').css('color', '#FFFFFF');
@@ -75,7 +75,7 @@ $(document).ready(function() {
       $('.comine h3').css('font-weight', '300');
       $('.comine h6').css('color', '#404040');
       $('.comine h6').css('font-weight', '100');
-      $('#comine').fadeOut();
+      $('#journey').fadeOut();
     }
   );
   $('.comine').on('click', function(){
@@ -84,8 +84,8 @@ $(document).ready(function() {
 
   $('.algo').mousemove(
     function(e){
-      $(document.body).css('background-color', '#2F2A51');
-      $('#algo').fadeIn();
+      $(document.body).css('background-color', '#B44724');
+      $('#graphic').fadeIn();
       $('.algo h3').css('color', '#FFFFFF');
       $('.algo h3').css('font-weight', '600');
       $('.algo h6').css('color', '#FFFFFF');
@@ -98,7 +98,7 @@ $(document).ready(function() {
       $('.algo h3').css('font-weight', '300');
       $('.algo h6').css('color', '#404040');
       $('.algo h6').css('font-weight', '100');
-      $('#algo').fadeOut();
+      $('#graphic').fadeOut();
     }
   );
   $('.algo').on('click', function(){
@@ -107,8 +107,8 @@ $(document).ready(function() {
 
   $('.graphic').mousemove(
     function(e){
-      $(document.body).css('background-color', '#B44724');
-      $('#graphic').fadeIn();
+      $(document.body).css('background-color', '#2F2A51');
+      $('#algo').fadeIn();
       $('.graphic h3').css('color', '#FFFFFF');
       $('.graphic h3').css('font-weight', '600');
       $('.graphic h6').css('color', '#FFFFFF');
@@ -121,7 +121,7 @@ $(document).ready(function() {
       $('.graphic h3').css('font-weight', '300');
       $('.graphic h6').css('color', '#404040');
       $('.graphic h6').css('font-weight', '100');
-      $('#graphic').fadeOut();
+      $('#algo').fadeOut();
     }
   );
   $('.graphic').on('click', function(){
