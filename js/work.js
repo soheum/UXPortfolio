@@ -56,7 +56,7 @@ $(document).ready(function() {
     }
   );
   $('.journey').on('click', function(){
-    window.location = "./journey.html";
+    window.location = "./comine.html";
   });
 
   $('.comine').mousemove(
@@ -79,7 +79,7 @@ $(document).ready(function() {
     }
   );
   $('.comine').on('click', function(){
-    window.location = "./comine.html";
+    window.location = "./journey.html";
   });
 
   $('.algo').mousemove(
@@ -102,7 +102,7 @@ $(document).ready(function() {
     }
   );
   $('.algo').on('click', function(){
-    window.location = "./algo.html";
+    window.location = "./graphic.html";
   });
 
   $('.graphic').mousemove(
@@ -125,7 +125,7 @@ $(document).ready(function() {
     }
   );
   $('.graphic').on('click', function(){
-    window.location = "./graphic.html";
+    window.location = "./algo.html";
   });
   $('.retail').mousemove(
     function(e){

@@ -147,8 +147,12 @@ table {
     align-items: stretch;
     height: 80vh;
   }
+	#previous{
+		cursor: pointer;
+	}
 	#next{
 		text-align: right;
+		cursor: pointer;
 	}
 	#h1{
 		font-family: "Poppins", sans-serif;
@@ -294,10 +298,11 @@ table {
 	}
 	#nex{
 		text-align: left;
-		cursor: pointer
+		cursor: pointer;
 	}
 	#next{
 		text-align: left;
+		cursor: pointer;
 		margin-top: 7%;
 	}
 	h1{

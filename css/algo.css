@@ -74,6 +74,7 @@ table {
 	}
 	#previous{
 		color: #FFFFFF;
+		cursor: pointer;
 	}
 	#prev:hover{
 		font-weight: 500;
@@ -88,6 +89,7 @@ table {
 	}
 	#next{
 		text-align: right;
+		cursor: pointer;
 		color: #FFFFFF;
 	}
 	.maintitle{

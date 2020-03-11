@@ -73,6 +73,9 @@ table {
 	#prev:hover{
 		font-weight: 500;
 	}
+	#previous{
+		cursor: pointer;
+	}
 	#nex{
 		text-align: right;
 		cursor: pointer
@@ -232,6 +235,7 @@ table {
 	}
 	#next{
 		text-align: right;
+		cursor: pointer;
 	}
 }
 

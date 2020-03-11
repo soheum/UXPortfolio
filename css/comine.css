@@ -73,15 +73,19 @@ table {
 	#prev:hover{
 		font-weight: 500;
 	}
+	#previous{
+		cursor: pointer;
+	}
 	#nex{
 		text-align: right;
-		cursor: pointer
+		cursor: pointer;
 	}
 	#nex:hover{
 		font-weight: 500;
 	}
 	#next{
 		text-align: right;
+		cursor: pointer;
 	}
   html{
     font-size: 10px;
