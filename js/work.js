@@ -12,7 +12,7 @@ $(document).ready(function() {
   $('#journey').hide();
   $('#comine').hide();
   $('#algo').hide();
-  $('#retail').hide();
+  $('#joule').hide();
   $('.norinuri').mousemove(
     function(e){
       $(document.body).css('background-color', '#66C18B');
@@ -61,8 +61,8 @@ $(document).ready(function() {
 
   $('.comine').mousemove(
     function(e){
-      $(document.body).css('background-color', '#EFD2D3');
-      $('#journey').fadeIn();
+      $(document.body).css('background-color', '#adb885');
+      $('#joule').fadeIn();
       $('.comine h3').css('color', '#FFFFFF');
       $('.comine h3').css('font-weight', '600');
       $('.comine h6').css('color', '#FFFFFF');
@@ -75,17 +75,17 @@ $(document).ready(function() {
       $('.comine h3').css('font-weight', '300');
       $('.comine h6').css('color', '#404040');
       $('.comine h6').css('font-weight', '100');
-      $('#journey').fadeOut();
+      $('#joule').fadeOut();
     }
   );
   $('.comine').on('click', function(){
-    window.location = "./journey.html";
+    window.location = "./joule.html";
   });
 
   $('.algo').mousemove(
     function(e){
-      $(document.body).css('background-color', '#B44724');
-      $('#graphic').fadeIn();
+      $(document.body).css('background-color', '#EFD2D3');
+      $('#journey').fadeIn();
       $('.algo h3').css('color', '#FFFFFF');
       $('.algo h3').css('font-weight', '600');
       $('.algo h6').css('color', '#FFFFFF');
@@ -98,17 +98,17 @@ $(document).ready(function() {
       $('.algo h3').css('font-weight', '300');
       $('.algo h6').css('color', '#404040');
       $('.algo h6').css('font-weight', '100');
-      $('#graphic').fadeOut();
+      $('#journey').fadeOut();
     }
   );
   $('.algo').on('click', function(){
-    window.location = "./graphic.html";
+    window.location = "./journey.html";
   });
 
   $('.graphic').mousemove(
     function(e){
-      $(document.body).css('background-color', '#2F2A51');
-      $('#algo').fadeIn();
+      $(document.body).css('background-color', '#B44724');
+      $('#graphic').fadeIn();
       $('.graphic h3').css('color', '#FFFFFF');
       $('.graphic h3').css('font-weight', '600');
       $('.graphic h6').css('color', '#FFFFFF');
@@ -121,16 +121,16 @@ $(document).ready(function() {
       $('.graphic h3').css('font-weight', '300');
       $('.graphic h6').css('color', '#404040');
       $('.graphic h6').css('font-weight', '100');
-      $('#algo').fadeOut();
+      $('#graphic').fadeOut();
     }
   );
   $('.graphic').on('click', function(){
-    window.location = "./algo.html";
+    window.location = "./graphic.html";
   });
   $('.retail').mousemove(
     function(e){
-      $(document.body).css('background-color', '#79797a');
-      $('#retail').fadeIn();
+      $(document.body).css('background-color', '#2F2A51');
+      $('#algo').fadeIn();
       $('.retail h3').css('color', '#FFFFFF');
       $('.retail h3').css('font-weight', '600');
       $('.retail h6').css('color', '#FFFFFF');
@@ -143,11 +143,11 @@ $(document).ready(function() {
       $('.retail h3').css('font-weight', '300');
       $('.retail h6').css('color', '#404040');
       $('.retail h6').css('font-weight', '100');
-      $('#retail').fadeOut();
+      $('#algo').fadeOut();
     }
   );
   $('.retail').on('click', function(){
-    window.location = "./retail.html";
+    window.location = "./algo.html";
   });
 
 });

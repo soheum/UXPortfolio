@@ -142,9 +142,10 @@ table {
 		grid-column: 1/5;
 		cursor: pointer;
 	}
-	#retail{
+	#joule{
     position: absolute;
-    max-width: 40%;
+		margin-left: 14%;
+    max-width: 23%;
   }
   .photo{
     grid-row: 1/5;

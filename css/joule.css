@@ -68,10 +68,13 @@ table {
     font-weight: 500;
   }
 	#prev{
-		cursor: pointer
+		cursor: pointer;
 	}
 	#prev:hover{
 		font-weight: 500;
+	}
+	#previous{
+		cursor: pointer;
 	}
 	#nex{
 		text-align: right;
@@ -79,6 +82,9 @@ table {
 	}
 	#nex:hover{
 		font-weight: 500;
+	}
+	#next{
+		cursor: pointer;
 	}
 	.maintitle{
     padding-top: 10%;
@@ -160,8 +166,9 @@ table {
 		margin-right: 5%;
     margin-bottom: 2%;
   }
-	.chapter_title_p{
-		margin-top: 5%;
+	.deliverfeat{
+		margin-top: 3%;
+		line-height: 1.7;
 	}
   svg{
     position: absolute;
@@ -227,29 +234,7 @@ table {
 		line-height: 1.3em;
     color: #adb885;
 	}
-	#selected{
-		font-weight: 400;
-		font-size: 1.7rem;
-		color: #FFDE3A;
-	}
-	#develop_ur1{
-		color: #055C8C;
-		font-weight: 300;
-		font-size: 21px;
-	}
-	#develop_ur1_p{
-		margin-top: 3%;
-	}
-	#develop_ur2{
-		color: #E85124;
-		font-weight: 300;
-		font-size: 21px;
-	}
-	#develop_ur3{
-		color: #ECC427;
-		font-weight: 300;
-		font-size: 21px;
-	}
+
 	#next{
 		text-align: right;
 	}
@@ -306,87 +291,6 @@ table {
 	}
 	#header_mobile{
 		margin-top: -4%;
-	}
-	.semititle{
-		margin-top: 5%;
-	}
-	.bodycontent{
-		margin-top: 2%;
-	}
-	.responsive{
-		margin-top: -4%;
-	}
-	.discover_interview{
-		margin-top: 5%;
-	}
-	#discover_interviewfirst{
-		margin-top: 9%;
-	}
-	#discover_interviewsecond{
-		margin-top: 9%;
-	}
-	.defineimg{
-		margin-top: 3%;
-	}
-	#develop1{
-		max-width: 65%;
-		margin-top: 2%;
-	}
-
-	#develop2{
-		max-width: 65%;
-		margin-top: 2%;
-	}
-	#develop3{
-		max-width: 65%;
-		margin-top: 2%;
-	}
-	.discover_interview{
-		margin-top: 6%;
-	}
-	#develop_ur1{
-		font-weight: 400;
-		font-size: 1.5rem;
-	}
-	#develop_ur2{
-		font-weight: 400;
-		font-size: 1.5rem;
-	}
-	#develop_ur3{
-		font-weight: 400;
-		font-size: 1.5rem;
-	}
-	#develop_ur1_p{
-		margin-top: 3%;
-	}
-	#develop_ur2_p{
-		margin-top: 3%;
-	}
-	#develop_ur3_p{
-		margin-top: 3%;
-	}
-	.header_mobile{
-		display: block;
-	}
-	#target{
-		font-weight: 500;
-	}
-	#titleimg {
-		padding-left: 0%;
-		padding-right: 0%;
-	}
-	.chapter{
-		width: 60%;
-		margin-left: 20%;
-	}
-	.chapter_title{
-		margin-top: 5%;
-	}
-	.chapter_title_p{
-		margin-top: 1%;
-	}
-	.feature{
-		margin-top: 5%;
 	}
 
 	#nex{
