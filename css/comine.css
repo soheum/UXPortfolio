@@ -220,6 +220,11 @@ table {
 		text-align: center;
 		display: block;
 	}
+	.comineh1{
+		text-align: center;
+		margin-bottom: 1%;
+		margin-top: 2%;
+	}
   svg{
     position: absolute;
     top: 0;
@@ -330,6 +335,12 @@ table {
 		display: block;
 		text-align: center;
 	}
+	.h7_mobile{
+		font-size: 21px; font-weight: 400; text-align:center; color: #F37C71;
+	}
+	.hmw_mobile{
+		margin-top: 2%;
+	}
 	#deliverh7{
 		text-align: center;
 	}
@@ -360,9 +371,6 @@ table {
 	}
 	.container{
 		width: 100;
-	}
-	.maintitle{
-		padding-top: 30%;
 	}
 	.mobile{
 		display: block;
@@ -420,7 +428,7 @@ table {
 		margin-top: 6%;
 	}
 	.defineint_btw{
-		margin-top: 4%;
+		margin-top: 10%;
 	}
 	#develop_vid{
 		max-width: 115%;
@@ -439,6 +447,64 @@ table {
 	}
 	.delivertitle{
 		margin-top: 5%;
+	}
+	.comineh1{
+		margin-top: 20%;
+	}
+	.hmw{
+		margin-top: 5%;
+	}
+	.maintitle{
+		margin-top: 5%;
+	}
+	.description{
+		font-size: 15px;
+	}
+	.description2{
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.img_mobile{
+		margin-top: 5%;
+	}
+	.h7_mobile{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 1.3em;
+		text-align: center;
+    color: #F37C71;
+	}
+	.hmw_mobile{
+		margin-top: 5%;
+	}
+	.stake_mobile h7{
+		text-align: center;
+		display: block;
+	}
+	.center_mobile{
+		text-align: center;
+		display: block;
+	}
+	.feature_mobile{
+		margin-top: 7%;
+	}
+	.stake_mobile p{
+		text-align: center;
+		display: block;
+	}
+	.description strong{
+		font-size: 15px;
+	}
+	.mobile_key{
+		margin-top: 20%;
+	}
+	.hmwtitle{
+		margin-top: 10%;
+	}
+	.defineint_btw{
+		margin-top: 8%;
 	}
 	#nex{
 		text-align: left;

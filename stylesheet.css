@@ -141,6 +141,12 @@ table {
 		margin-top: 10%;
 		/* align-self: end; */
 	}
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
 	.img_div{
 		position: absolute;
 	}
@@ -202,17 +208,30 @@ table {
 	}
 }
 @media only screen and (max-width: 600px) {
-	.mainbody{
-    display: grid;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .header{
+
+	.header {
     margin-top: 12%;
     margin-left: 10%;
-		margin-right: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
-  }
+}
+	.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+	.hello{
+		margin-top: 40%;
+	}
+	.description{
+		margin-top: 10%;
+	}
 	#about{
 		display: none;
 	}
@@ -224,42 +243,31 @@ table {
 	}
 	#title_mobile{
 		display: block;
+		line-height: 1.3;
 	}
 	#title_screen{
 		display: none;
 	}
 	#secret{
 		display: block;
+		margin-top: 2%;
 	}
-	/* .header_mobile{
-		margin-left: 10%;
-		margin-right: 10%;
-    margin-bottom: 2%;
-		display: block;
-	} */
-  .mainbody{
-    display: grid;
-		grid-template-columns: repeat(7, 1fr);
-		grid-template-rows: repeat(8, 1fr);
-		align-items: stretch;
-		height: 75vh;
-		/* width: 45vh; */
-  }
 	.header_mobile{
-		grid-row: 1/2;
 		display: block;
-		grid-column: 1/8;
 	}
-	.hello{
-		grid-row: 4/5;
-		/* grid-column: 1/2; */
+	#soheum{
+		display: none;
 	}
-	.description{
-		grid-row: 5/6;
-		/* grid-column: 1/8; */
-		line-height: 0.9;
-		margin-top: 6%;
+  .mobile{
+		display: block;
 	}
+	.screen{
+		display: none;
+	}
+	#header_mobile{
+		margin-top: -4%;
+	}
+
 	h1{
 		font-family: "Poppins", sans-serif;
 		font-size: 3.7rem;
