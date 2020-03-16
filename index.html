@@ -14,13 +14,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="./js/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="./js/jquery.onepage-scroll.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/bootstrap-grid.css"/>
   <link href="stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="onepage-scroll.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="./js/lib/greensock/TweenMax.min.js"></script>
-	<script type="text/javascript" src="./js/lib/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <title>SoHeum Portfolio</title>
+  <script>
+    // $(document).ready(function(){
+    //   $(".main").onepage_scroll({
+    //     sectionContainer: "section",
+    //     easing: "ease",
+    //     responsiveFallback: 600,
+    //     loop: true,
+    //     pagination: true,
+    //     passive: false
+    //   });
+    // });
+  </script>
 </head>
 <body>
+  <script>
+  // document.addEventListener("mousemove", function(e){
+  //   var myImages1 = new Array();
+  //   console.log(myImages1);
+  //   myImages1[0] = "";
+  //   myImages1[1] = "./img/landing/algo_landing.png";
+  //   myImages1[2] = "";
+  //   myImages1[3] = "./img/landing/baseball_landing.png";
+  //   myImages1[4] = "";
+  //   myImages1[5] = "./img/landing/nori_landing.png";
+  //   myImages1[6] = "";
+  //   myImages1[7] = "./img/landing/data_landing.png";
+  //   myImages1[8] = "";
+  //   myImages1[9] = "./img/landing/retail_landing.png";
+  //   myImages1[10] = "";
+  //   myImages1[11] = "./img/landing/baseball_landing.png";
+  //   myImages1[12] = "";
+  //   myImages1[13] = "./img/landing/comine_landing.png";
+  //   myImages1[14] = "";
+  //   myImages1[15] = "./img/landing/hexagon_landing.png";
+  //   myImages1[16] = "./img/landing/insta_landing.png";
+  //   myImages1[17] = "";
+  //   myImages1[18] = "./img/landing/carui_landing.png";
+  //   myImages1[19] = "";
+  //   myImages1[20] = "./img/landing/zyga_landing.png";
+  //   myImages1[21] = "";
+  //   myImages1[22] = "./img/landing/gaja_landing.png";
+  //   myImages1[23] = "";
+  //   myImages1[24] = "";
+  //   myImages1[25] = "./img/joule/joule_landing.png";
+  //
+  //   var rnd = Math.floor( Math.random() * myImages1.length );
+  //   if( rnd == 0) {
+  //       rnd = 1;
+  //   }
+  //   if (e.pageX > 100 && e.pageY > 100){
+  //     document.getElementById("img_change").style.width = 400 + 'px';
+  //     document.getElementById("img_change").style.display = "block";
+  //     document.getElementById("img_change").src = myImages1[rnd];
+  //     var newX = e.clientX + parseInt(100);
+  //     document.getElementById("img_change").style.top = e.pageY + 10 + 'px';
+  //     document.getElementById("img_change").style.left = e.pageX + 10 + 'px';
+  //   }
+  //
+  //
+  // });
+
+  </script>
   <header class="header">
     <h2 id="soheum" style="cursor: pointer;" onclick="window.location.href='./index.html'">So Heum Hwang</h2>
     <h4 style="float: right; cursor: pointer;" onclick="window.location.href='./about.html'" id="about">about</h4>
@@ -28,78 +94,69 @@
     <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" id="works" onclick="window.location.href='./work.html'">works</h4>
   </header>
 
-  <div class="mainbody" id="fullpage">
+  <div class="wrapper">
+    <div class="main">
 
-      <div class="header_mobile">
-        <span class="h4" style="float: left; cursor: pointer;" onclick="window.location.href='./about.html'">about<br></span>
-        <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" onclick="window.location.href='./playground2.html'">playground<br></span>
-        <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" onclick="window.location.href='./work.html'">works</span>
+    <section class="page1">
+      <div class="container">
+        <div class="row">
+          <div class="header_mobile">
+            <span class="h4" style="float: left; cursor: pointer;" onclick="window.location.href='./about.html'">about<br></span>
+            <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" onclick="window.location.href='./playground2.html'">playground<br></span>
+            <span class="h4" style="float: left; margin-left: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" onclick="window.location.href='./work.html'">works</span>
+          </div>
+          <div class="col-xl-1"></div>
+          <div class="col-xl-2">
+            <img class="fadein" id="nori" onclick="window.location.href='./norinuritest.html'" src="./img/landing/nori_landing.png" alt="">
+          </div>
+          <div class="col-xl-2">
+            <img id="comine" onclick="window.location.href='./comine.html'" style="margin-left: 10%; margin-top: 10%;"src="./img/landing/comine_landing.png" alt="">
+          </div>
+          <div class="col-xl-2">
+            <img id="joule" onclick="window.location.href='./joule.html'" style="margin-left: 5%;" src="./img/joule/joule_landing.png" alt="">
+          </div>
+          <div class="col-xl-2">
+            <img id="graphic" onclick="window.location.href='./graphic.html'" src="./img/landing/hexagon_landing.png" alt="">
+          </div>
+          <div class="col-xl-2">
+            <img id="algo" onclick="window.location.href='./algo.html'" style="margin-top: 10%; margin-left: 10%;" src="./img/landing/algo_landing.png" alt="">
+          </div>
+          <div class="col-xl-1"></div>
+          <!-- <div class="col-xl-1"></div>
+          <div class="col-xl-2">
+            <h4 id="nori2" style="text-align: center; margin-top: 10%;">Nori Nuri</h4>
+          </div>
+          <div class="col-xl-2">
+            <h4 id="comine2" style="text-align: center; display: block; margin-top: 10%;">Comine</h4>
+          </div>
+          <div class="col-xl-2">
+            <h4 id="joule2" style="text-align: center; display: block; margin-top: 10%; margin-left: 20%;">Joul</h4>
+          </div>
+          <div class="col-xl-2">
+            <h4 id="graphic2" style="text-align: center; display: block; margin-top: 10%;  margin-left: 10%;">From Hexagon to Sphere</h4>
+          </div>
+          <div class="col-xl-2">
+            <h4 id="algo2" style="text-align: center; display: block; margin-top: 10%;  margin-left: 10%;">Algostakes</h4>
+          </div>
+          <div class="col-xl-1"></div> -->
+          <div class="center hello col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <h1 id="title_mobile">안녕! <br><br>I'm Soheum.</h1>
+            <h1 id="title_screen">안녕! I'm Soheum.</h1>
+          </div>
+          <div class="description center col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <h3>Interaction designer & creative coder, currently studying MFA in Umea Institute of Design.</h3>
+          </div>
+
+          <div class="formore center col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <h4 id="formore" style="cursor: pointer;" onclick="window.location.href='./work.html'" style="text-decoration: underline;">And click here to view projects</h4>
+            <h6 id="secret"><br>Want to know a secret? <br>Try the website on the computer!</h6>
+          </div>
+        </div>
       </div>
-      <img id = "img_change" class="img_div" src="./img/awards_icon.png" style="display: none;">
-      <div class="hello">
-        <h1 id="title_mobile">안녕! <br><br>I'm Soheum.</h1>
-        <h1 id="title_screen">안녕! I'm Soheum.</h1>
-      </div>
-      <div class="description">
-        <h3>Interaction designer & creative coder,</h3>
-        <h3>currently studying MFA in Umea Institute of Design.</h3>
-      </div>
+    </section>
 
-      <div class="formore">
-        <h4 id="formore" style="cursor: pointer;" onclick="window.location.href='./work.html'" style="text-decoration: underline;">click here to view projects</h4>
-        <h6 id="secret"><br>Want to know a secret? <br>Try the website on the computer!</h6>
-      </div>
+</div>
+</div>
 
-
-  </div>
-  <script>
-
-  document.addEventListener("mousemove", function(e){
-    var myImages1 = new Array();
-    console.log(myImages1);
-    myImages1[0] = "";
-    myImages1[1] = "./img/landing/algo_landing.png";
-    myImages1[2] = "";
-    myImages1[3] = "./img/landing/baseball_landing.png";
-    myImages1[4] = "";
-    myImages1[5] = "./img/landing/nori_landing.png";
-    myImages1[6] = "";
-    myImages1[7] = "./img/landing/data_landing.png";
-    myImages1[8] = "";
-    myImages1[9] = "./img/landing/retail_landing.png";
-    myImages1[10] = "";
-    myImages1[11] = "./img/landing/baseball_landing.png";
-    myImages1[12] = "";
-    myImages1[13] = "./img/landing/comine_landing.png";
-    myImages1[14] = "";
-    myImages1[15] = "./img/landing/hexagon_landing.png";
-    myImages1[16] = "./img/landing/insta_landing.png";
-    myImages1[17] = "";
-    myImages1[18] = "./img/landing/carui_landing.png";
-    myImages1[19] = "";
-    myImages1[20] = "./img/landing/zyga_landing.png";
-    myImages1[21] = "";
-    myImages1[22] = "./img/landing/gaja_landing.png";
-    myImages1[23] = "";
-    myImages1[24] = "";
-    myImages1[25] = "./img/joule/joule_landing.png";
-
-    var rnd = Math.floor( Math.random() * myImages1.length );
-    if( rnd == 0) {
-        rnd = 1;
-    }
-    if (e.pageX > 100 && e.pageY > 100){
-      document.getElementById("img_change").style.width = 400 + 'px';
-      document.getElementById("img_change").style.display = "block";
-      document.getElementById("img_change").src = myImages1[rnd];
-      var newX = e.clientX + parseInt(100);
-      document.getElementById("img_change").style.top = e.pageY + 10 + 'px';
-      document.getElementById("img_change").style.left = e.pageX + 10 + 'px';
-    }
-
-
-  });
-
-  </script>
 </body>
 </html>

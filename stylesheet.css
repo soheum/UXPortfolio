@@ -80,7 +80,33 @@ table {
 	.header_mobile{
 		display: none;
 	}
-  .mainbody{
+	#nori2{
+		display: none;
+	}
+	#graphic{
+		width: 130%;
+	}
+	#nori:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#comine:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#joule:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#graphic:hover{
+		cursor: pointer;
+		width: 135%;
+	}
+	#algo:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+  /* .mainbody{
     display: grid;
     margin-left: 5%;
     margin-right: 5%;
@@ -88,7 +114,7 @@ table {
 		grid-template-rows: repeat(8, 1fr);
 		align-items: stretch;
 		height: 80vh;
-  }
+  } */
   .header{
     margin-top: 6%;
     margin-left: 5%;
@@ -101,24 +127,26 @@ table {
 		align-items: stretch;
 		height: 80vh;
   } */
+	.center{
+		display: block;
+		text-align: center;
+	}
 	.hello{
-		grid-row: 4/5;
-		grid-column: 1/6;
+		margin-top: 6%;
 	}
 	.description{
-		grid-row: 5/6;
-		grid-column: 1/8;
-		line-height: 0.9;
+		margin-top: 2%;
 	}
 	.formore{
-		grid-row: 8/9;
-		grid-column: 1/8;
+		margin-top: 10%;
 		/* align-self: end; */
 	}
 	.img_div{
 		position: absolute;
 	}
-
+	img{
+		width: 100%;
+	}
   svg{
     position: absolute;
     top: 0;
@@ -139,10 +167,10 @@ table {
   }
   h3{
     font-family: "Poppins", sans-serif;
-    font-size: 3.6rem;
-    font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 600;
     color: #404040;
-		line-height: 4.5rem;
+		line-height: 3.5rem;
   }
   h4{
     font-family: "Poppins", sans-serif;

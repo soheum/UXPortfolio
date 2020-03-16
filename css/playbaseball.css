@@ -81,7 +81,7 @@ table {
     max-width: 100%;
   }
 	.tool{
-		margin-top: 4%;
+		margin-top: 10%;
 	}
 	.container:before, .container:after {
   display: table;
@@ -93,6 +93,12 @@ table {
    content: "";
    zoom: 1;
    }
+	 .description2{
+ 		font-family: "Poppins", sans-serif;
+ 		font-size: 17px;
+ 		line-height: 1.5;
+ 		color: #404040;
+ 	}
 
 	#responsive {
   	width: 97%;
@@ -125,7 +131,7 @@ table {
     font-family: "Poppins", sans-serif;
 		font-size: 23px;
 		font-weight: 600;
-		line-height: 1.9;
+		line-height: 1.5;
     color: #404040;
     /* line-height: 2.4rem; */
   }
@@ -145,7 +151,7 @@ table {
   h6{
     font-family: "Poppins", sans-serif;
 		font-size: 16px;
-		font-weight: 600;
+		font-weight: 500;
     color: #404040;
     margin-bottom: 1.5%;
   }

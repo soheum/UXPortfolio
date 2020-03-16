@@ -114,6 +114,37 @@ table {
 	.smallcol{
 		padding-top: 1%;
 	}
+	.hmwtitle{
+		text-align: center;
+		padding-top: 13%;
+	}
+	.landing{
+		margin-top: 3%;
+	}
+	.landing_img img{
+		margin-top: -10%;
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+	}
+	.hmw{
+		text-align: center;
+	}
+	.hmw p{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		/* margin-top: 6%; */
+		font-size: 15px;
+	}
+	.center{
+		text-align: center;
+		display: block;
+	}
 
 	#bigtitle{
 		margin-left: 10%;
@@ -205,7 +236,7 @@ table {
 	h1{
 		font-family: "Poppins", sans-serif;
 		font-size: 3.8rem;
-		font-weight: 600;
+		font-weight: 500;
 		color: #404040;
 	}
 	h2{
@@ -260,6 +291,58 @@ table {
 		font-weight: 400;
 		line-height: 1.3em;
 		color: #67c18c;
+	}
+	.description2{
+		margin-top: 3%;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.h2_title{
+		font-family: 'Cormorant Upright', serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		display: block;
+    color: #404040;
+	}
+	h8{
+		font-family: "Poppins", sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	.description{
+		margin-top: 8%;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.description strong{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	.landing_title{
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #afaeae;
+		text-align: center;
+	}
+	.hmw_q{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		text-align: center;
+		/* margin-top: 6%; */
+		font-size: 25px;
+	}
+	.colored{
+		display: block;
+		text-align: center;
 	}
 	.bigtitle{
 		font-family: "Poppins", sans-serif;

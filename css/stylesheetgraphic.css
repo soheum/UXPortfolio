@@ -89,15 +89,6 @@ table {
 		text-align: right;
 		cursor: pointer;
 	}
-	/* .cover{
-		overflow: visible;
-		position:relative;
-    right: 5%;
-	}
-	.cover img{
-		max-width: 115%;
-	} */
-
 	.maintitle{
     padding-top: 10%;
   }
@@ -109,6 +100,9 @@ table {
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.subcol3{
+		padding-top: 1%;
+	}
   .mainindex{
 		padding-top: 10%;
 	}
@@ -116,9 +110,39 @@ table {
 		padding-top: 9%;
 	}
 	.smallcol{
-		padding-top: 1%;
 		padding-left: 5px;
 		padding-right: 5px;
+	}
+	.hmwtitle{
+		text-align: center;
+		padding-top: 13%;
+	}
+	.landing{
+		margin-top: 3%;
+	}
+	.landing_img img{
+		margin-top: -10%;
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+	}
+	.hmw{
+		text-align: center;
+	}
+	.hmw p{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		/* margin-top: 6%; */
+		font-size: 15px;
+	}
+	.center{
+		text-align: center;
+		display: block;
 	}
 	.mobile{
 		display: none;
@@ -166,8 +190,30 @@ table {
 	#vs_cl_4{
 		max-width: 70%;
 	}
+	#vs_1{
+		max-width: 80%;
+		margin-left: 10%;
+	}
 	#vs_2{
 		padding-top: 7%;
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	#vs_3{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	#vs_4{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	#vs_5{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	#vs_6{
+		max-width: 80%;
+		margin-left: 10%;
 	}
 
 	.secondsection_img{
@@ -252,6 +298,58 @@ table {
 		font-weight: 400;
 		line-height: 1.3em;
     color: #FBD516;
+	}
+	.description2{
+		margin-top: 3%;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.h2_title{
+		font-family: 'Cormorant Upright', serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		display: block;
+    color: #404040;
+	}
+	h8{
+		font-family: "IBM Plex Serif", serif;
+		font-size: 13px;
+		font-weight: 400;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	.description{
+		margin-top: 8%;
+		font-family: "IBM Plex Serif", serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.description strong{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	.landing_title{
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #afaeae;
+		text-align: center;
+	}
+	.hmw_q{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		text-align: center;
+		/* margin-top: 6%; */
+		font-size: 25px;
+	}
+	.colored{
+		display: block;
+		text-align: center;
 	}
 	.bigtitle{
 		font-family: "IBM Plex Serif", serif;
