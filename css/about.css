@@ -117,6 +117,42 @@ table {
 	.me{
 		height: 40vh;
 	}
+	.ixda{
+		cursor: pointer;
+	}
+	.mari{
+		cursor: pointer;
+	}
+	.algo{
+		cursor: pointer;
+	}
+	.frum{
+		cursor: pointer;
+	}
+	.iid{
+		cursor: pointer;
+	}
+	.uid{
+		cursor: pointer;
+	}
+	.uid h5:hover{
+		font-weight: 600;
+	}
+	.algo h5:hover{
+		font-weight: 600;
+	}
+	.ixda h5:hover{
+		font-weight: 600;
+	}
+	.mari h5:hover{
+		font-weight: 600;
+	}
+	.frum h5:hover{
+		font-weight: 600;
+	}
+	.iid h5:hover{
+		font-weight: 600;
+	}
 	#about1{
 		position: absolute;
 		width: 20%;

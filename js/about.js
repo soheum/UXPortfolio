@@ -39,8 +39,8 @@ $(document).ready(function() {
     function(e){
       $('#about2').fadeIn();
       $('#about2').offset({
-        top: e.pageY - ($('#about2').outerHeight()/10),
-        left: e.pageX - ($('#about2').outerWidth()/2)
+        top: e.pageY + ($('#about2').outerHeight()/3),
+        left: e.pageX + ($('#about2').outerWidth()/3)
       });
     });
   $('.education').mouseleave(
@@ -49,12 +49,44 @@ $(document).ready(function() {
     }
   );
 
+  // $('.ixda').mousemove(
+  //   $('#about2').fadeOut();
+  // $('.ixda').mouseleave(
+  //   $('#about3').fadeIn();
+  // );
+  $('.ixda').on('click', function(){
+    window.location = "https://awards.ixda.org/entry/2019/think-talk-and-play-nori-nuri/";
+  });
+  $('.mari').on('click', function(){
+    window.location = "https://www.helsinkidesignweek.com/series/weekly-pics-marimekko-designathon/";
+  });
+  $('.algo').on('click', function(){
+    window.location = "https://algostakes.xyz/";
+  });
+  $('.frum').on('click', function(){
+    window.location = "http://www.frum.co.kr/en/main";
+  });
+  $('.iid').on('click', function(){
+    window.location = "http://www.yonseiiid.com/";
+  });
+  $('.uid').on('click', function(){
+    window.location = "http://www.uid.umu.se/en/";
+  });
+  // $('#playground').on('click', function(){
+  //   window.location = "./playground.html";
+  // });
+  // $('#soheum').on('click', function(){
+  //   window.location = "./index.html";
+  // });
+
+
+
   $('.award').mousemove(
     function(e){
       $('#about3').fadeIn();
       $('#about3').offset({
-        top: e.pageY - ($('#about3').outerHeight()/10),
-        left: e.pageX - ($('#about3').outerWidth()/10)
+        top: e.pageY + ($('#about3').outerHeight()/3),
+        left: e.pageX + ($('#about3').outerWidth()/3)
       });
     });
   $('.award').mouseleave(
@@ -67,8 +99,8 @@ $(document).ready(function() {
     function(e){
       $('#about4').fadeIn();
       $('#about4').offset({
-        top: e.pageY - ($('#about4').outerHeight()/10),
-        left: e.pageX - ($('#about4').outerWidth()/10)
+        top: e.pageY + ($('#about4').outerHeight()/3),
+        left: e.pageX + ($('#about4').outerWidth()/3)
       });
     });
   $('.experience').mouseleave(
@@ -81,8 +113,8 @@ $(document).ready(function() {
     function(e){
       $('#about5').fadeIn();
       $('#about5').offset({
-        top: e.pageY - ($('#about5').outerHeight()/10),
-        left: e.pageX - ($('#about5').outerWidth()/10)
+        top: e.pageY + ($('#about5').outerHeight()/3),
+        left: e.pageX + ($('#about5').outerWidth()/3)
       });
     });
   $('.skill').mouseleave(
