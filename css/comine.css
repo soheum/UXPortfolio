@@ -427,9 +427,9 @@ table {
 	.defineint{
 		margin-top: 6%;
 	}
-	.defineint_btw{
+	/* .defineint_btw{
 		margin-top: 10%;
-	}
+	} */
 	#develop_vid{
 		max-width: 115%;
 	}
@@ -499,6 +499,9 @@ table {
 	}
 	.mobile_key{
 		margin-top: 20%;
+	}
+	.maincontent_mobile{
+		margin-top: 0%;
 	}
 	.hmwtitle{
 		margin-top: 10%;

@@ -347,11 +347,17 @@ table {
 		width: 100;
 	}
 	.maintitle{
-		padding-top: 5%;
+		margin-top: 5%;
+	}
+	.discover_mobile{
+		margin-top: 10%;
 	}
 	.mobile{
 		display: block;
 		line-height: 3rem;
+	}
+	.mobile_key{
+		margin-top: 20%;
 	}
 	.hmw{
 		margin-top: 5%;
@@ -386,11 +392,11 @@ table {
 	#header_mobile{
 		margin-top: -4%;
 	}
-	.semititle{
-		margin-top: 5%;
+	.feature_mobile{
+		margin-top: 7%;
 	}
-	.bodycontent{
-		margin-top: 2%;
+	.description2{
+		margin-top: 0;
 	}
 	.responsive{
 		margin-top: -4%;
@@ -398,7 +404,7 @@ table {
 	.header_mobile{
 		display: block;
 	}
-	
+
 	#nex{
 		text-align: left;
 		cursor: pointer
