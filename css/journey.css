@@ -109,6 +109,9 @@ table {
 	right: 50%;
 	width: 100vw;
 	}
+	.journeyh1{
+		text-align: center; margin-bottom: 1%; margin-top: 2%;
+	}
 	.hmw{
 		text-align: center;
 	}
@@ -344,7 +347,7 @@ table {
 		/* width: 100; */
 	}
 	.maintitle{
-		padding-top: 30%;
+		margin-top: 5%;
 	}
 	.mobile{
 		display: block;
@@ -361,6 +364,15 @@ table {
 	}
 	.chapter1{
 		margin-left: 0%;
+	}
+	.journeyh1{
+		margin-top: 20%;
+	}
+	.mobile_key{
+		margin-top: 20%;
+	}
+	.feature_mobile{
+		margin-top: 7%;
 	}
 	#about{
 		display: none;
@@ -386,15 +398,7 @@ table {
 	.responsive{
 		margin-top: -4%;
 	}
-	.discover_interview{
-		margin-top: 5%;
-	}
-	#discover_interviewfirst{
-		margin-top: 9%;
-	}
-	#discover_interviewsecond{
-		margin-top: 9%;
-	}
+	
 	.defineimg{
 		margin-top: 3%;
 	}

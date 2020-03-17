@@ -345,6 +345,9 @@ table {
 		font-size: 1.7rem;
 		color: #FFDE3A;
 	}
+	.algoh1{
+		text-align: center; margin-bottom: 1%; margin-top: 2%;
+	}
 }
 @media only screen and (max-width: 600px) {
   .header{
@@ -368,7 +371,10 @@ table {
 		width: 100;
 	}
 	.maintitle{
-		padding-top: 30%;
+		margin-top: 5%;
+	}
+	.mobile_key{
+		margin-top: 20%;
 	}
 	.mobile{
 		display: block;
@@ -382,6 +388,12 @@ table {
 	}
 	.mobile iframe{
 		display: block;
+	}
+	.algoh1{
+		margin-top: 20%;
+	}
+	.hmw{
+		margin-top: 5%;
 	}
 	#about{
 		display: none;
@@ -398,9 +410,7 @@ table {
 	#header_mobile{
 		margin-top: -4%;
 	}
-	.semititle{
-		margin-top: 5%;
-	}
+
 	.bodycontent{
 		margin-top: 2%;
 	}
@@ -453,6 +463,12 @@ table {
 	#exp{
 		padding-top: 50%;
 	}
+	.subcol{
+		margin-top: 5%;
+	}
+	.description{
+		text-align: left;
+	}
 	h1{
 		font-family: "Poppins", sans-serif;
 		font-size: 2.5rem;
@@ -500,13 +516,19 @@ table {
     font-weight: 400;
     color: #FFFFFF;
   }
+	.middle{
+		font-family: "Poppins", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #FFDE3A;
+	}
 		/* didn't use yet */
 	h6{
 		font-family: "Poppins", sans-serif;
 		font-size: 1.2rem;
 		font-weight: 400;
 		margin-top: 2%;
-		color: #FFFFFF;
+		color: #FFDE3A;
 		margin-bottom: 1.5%;
 	}
 	h7{

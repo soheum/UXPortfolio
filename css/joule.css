@@ -344,14 +344,17 @@ table {
 		font-weight: 300;
 	}
 	.container{
-		/* width: 100; */
+		width: 100;
 	}
 	.maintitle{
-		padding-top: 30%;
+		padding-top: 5%;
 	}
 	.mobile{
 		display: block;
 		line-height: 3rem;
+	}
+	.hmw{
+		margin-top: 5%;
 	}
 	.screen{
 		display: none;
@@ -361,6 +364,12 @@ table {
 	}
 	.mobile iframe{
 		display: block;
+	}
+	.header_mobile{
+		display: block;
+	}
+	.jouleh1{
+		margin-top: 20%;
 	}
 	#about{
 		display: none;
@@ -377,7 +386,19 @@ table {
 	#header_mobile{
 		margin-top: -4%;
 	}
-
+	.semititle{
+		margin-top: 5%;
+	}
+	.bodycontent{
+		margin-top: 2%;
+	}
+	.responsive{
+		margin-top: -4%;
+	}
+	.header_mobile{
+		display: block;
+	}
+	
 	#nex{
 		text-align: left;
 		cursor: pointer

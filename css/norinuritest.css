@@ -145,7 +145,14 @@ table {
 		text-align: center;
 		display: block;
 	}
-
+	.norih1{
+		text-align: center;
+		margin-bottom: 1%;
+		margin-top: 2%;
+	}
+	.hmw{
+		margin-top: 5%;
+	}
 	#bigtitle{
 		margin-left: 10%;
 		font-size: 55px;
@@ -412,11 +419,14 @@ table {
 		width: 100%;
 	}
 	.maintitle{
-		padding-top: 30%;
+		margin-top: 5%;
 	}
 	.mobile{
 		display: block;
 		line-height: 3rem;
+	}
+	.mobile_key{
+		margin-top: 20%;
 	}
 	.header_mobile{
 		display: block;
@@ -429,6 +439,9 @@ table {
 	}
 	.mobile iframe{
 		display: block;
+	}
+	.norih1{
+		margin-top: 20%;
 	}
 	#about{
 		display: none;
@@ -445,9 +458,7 @@ table {
 	#header_mobile{
 		margin-top: -4%;
 	}
-	.semititle{
-		margin-top: 5%;
-	}
+
 	.bodycontent{
 		margin-top: 2%;
 	}
@@ -455,7 +466,7 @@ table {
 		margin-top: -4%;
 	}
 	#discovercontent{
-		margin-top: 4%;
+		margin-top: 10%;
 	}
 	#defineimg{
 		padding-left: 0%;
@@ -482,6 +493,13 @@ table {
 		padding-bottom: 0%;
 	}
 	.header_mobile{
+		display: block;
+	}
+	.deliver_mobile{
+		margin-top: 7%;
+	}
+	.center_mobile{
+		text-align: center;
 		display: block;
 	}
 	#target{
