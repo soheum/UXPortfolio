@@ -64,7 +64,7 @@ document.onclick = userClicked;
       window.location = "./playground.html";
     });
     $('#soheum').on('click', function(){
-      window.location = "./indexcopy.html";
+      window.location = "./index.html";
     });
 
 
