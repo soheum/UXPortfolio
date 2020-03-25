@@ -47,108 +47,154 @@ table {
 	border-spacing: 0;
 }
 
-@media screen and (min-width: 700px){
+@media screen {
   html{
     font-size: 10px;
     height: 100vh;
   }
-
-  .mainbody{
-    display: grid;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 100vh;
-  }
-  .header{
-    margin-top: 6%;
-    margin-left: 5%;
-    margin-bottom: 2%;
-  }
-  .content{
-    /* margin-top: 4%; */
-  }
-  .container{
-    display: flex;
-    align-items: flex-start;
-		margin-top: 2%;
-  }
-	#firstpage{
-		min-height: 60vh;
+	#playground:hover{
+		font-weight: 500;
 	}
-  .item_left{
-    flex: 4;
-		display: grid;
-		grid-template-rows: repeat(3, 1fr);
-		align-self: end;
-  }
-  .item_right{
-    flex: 6;
-		display: grid;
-		grid-template-rows: repeat(3, 1fr);
-  }
-  img{
-    max-width: 100%;
-    height: auto;
-  }
-  .item_top{
-    margin-bottom: 3%;
-		grid-row: 1;
-  }
-  .item_bottom{
-    height: 100%;
-		grid-row: 3;
-  }
-  .project{
-    opacity: 0;
-    transform: translateY(-50px);
-    transition: all 1s ease-out;
-  }
-  .project.fade-in{
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .sidenav h6{
-    transform: rotate(-90deg);
-    margin-right: 0%;
-  }
-  .sidenav a{
-    text-decoration: none;
-  }
-  .sidenav {
-    display: flex;
-    opacity: 0;
-    height: 100%;
-    flex-flow: column wrap;
-    width: 6%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    /* overflow-x: hidden; */
-    justify-content: space-around;
-    transition: 0.5s;
-  }
-  .fullpage{
-    transition: margin-left .5s;
-    overflow: hidden;
-  }
-  .menu_btn{
-    margin-left: 0;
-    z-index: 1;
-  }
-  .title{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1%;
-		margin-top: 0.5%;
-  }
-  #h1{
-    font-family: "Poppins", sans-serif;
-    font-size: 3.8rem;
-    font-weight: 600;
-    color: #404040;
-  }
+	#about:hover{
+		font-weight: 500;
+	}
+	#works:hover{
+		font-weight: 500;
+	}
+	#soheum:hover{
+		font-weight: 900;
+	}
+	#about{
+		float: right;
+		margin-right: 2%;
+	}
+	#works{
+		float: right;
+		margin-right: 2%;
+	}
+	#playground{
+		float: right;
+		margin-right: 2%;
+	}
+	#formore:hover{
+		font-weight: 400;
+		text-decoration: underline;
+	}
+	#title_mobile{
+		display: none;
+	}
+	#title_screen{
+		display: block;
+	}
+	#secret{
+		display: none;
+	}
+	.header_mobile{
+		display: none;
+	}
+	#nori2{
+		display: none;
+	}
+	#graphic{
+		width: 130%;
+	}
+	#nori:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#comine:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#joule:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	#graphic:hover{
+		cursor: pointer;
+		width: 135%;
+	}
+	#algo:hover{
+		cursor: pointer;
+		width: 105%;
+	}
+	html {
+  height: 100%;
+	}
+	video{
+		margin-top: 2%;
+		height: 100%;
+		width: 100%;
+	}
+	.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+.header{
+	margin-top: 6%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+  /* .header{
+    margin-top: 6%;
+
+		/* border-right: 0.5px solid #E2E2E2; */
+  } */
+	.absolute{
+		position: absolute;
+		border-right: 0.5px solid #E2E2E2;
+	}
+	.vertical{
+		/* position: absolute; */
+    /* border-right: 0.5px solid #E2E2E2; */
+    /* top: 0;
+    bottom: 0; */
+	}
+	.vertical-line{
+        display: inline-block;
+        border-left: 0.5px solid #E2E2E2;
+        height: 90vh;
+    }
+	.hello{
+		margin-top: 5%;
+	}
+	.center{
+		display: block;
+		text-align: center;
+	}
+	.scroll{
+		position: absolute;
+		text-decoration: underline;
+	 	bottom: 15%;
+	}
+
+	.description{
+		margin-top: 2%;
+	}
+	.formore{
+		margin-top: 10%;
+		/* align-self: end; */
+	}
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
+	.img_div{
+		position: absolute;
+	}
+	img{
+		width: 100%;
+	}
   svg{
     position: absolute;
     top: 0;
@@ -156,28 +202,33 @@ table {
   }
   h1{
     font-family: "Poppins", sans-serif;
-    font-size: 3.8rem;
-    font-weight: 600;
+    font-size: 4.7rem;
+		font-size: 3.3rem;
+    font-weight: 800;
     color: #404040;
+		display: block;
   }
-  h2{
+	h2{
     font-family: "Poppins", sans-serif;
     font-size: 2.3rem;
     font-weight: 800;
+		display: inline;
     color: #404040;
   }
   h3{
     font-family: "Poppins", sans-serif;
-    font-size: 2.1rem;
-    font-weight: 400;
+    font-size: 2.3rem;
+    font-weight: 600;
     color: #404040;
+		line-height: 3.5rem;
   }
   h4{
-    font-family: "Poppins", sans-serif;
-    font-size: 1.9rem;
+		font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
     font-weight: 300;
     color: #404040;
   }
+		/* didn't use yet */
   h6{
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
@@ -198,7 +249,433 @@ table {
 		line-height: 1.3em;
     color: #404040;
 	}
-}
-@media screen and (max-width: 700px){
+	.introline{
+		font-family: "Oswald", sans-serif;
+		font-size: 65px;
+		font-weight: 600;
+		margin-top: 7%;
+		animation: fade 2s;
+		text-align: center;
+		display: block;
+	}
+	@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+	}
+	.digital{
+		font-family: "Oswald", sans-serif;
+		font-size: 50px;
+		font-weight: 300;
+		margin-top: 5%;
+		letter-spacing: -2px;
+		animation: fade2 4s;
+		text-align: center;
+		display: block;
+	}
+	@keyframes fade2 {
+		0% {
+    opacity: 0;
+  	}
+  	30% {
+    opacity: 0;
+  	}
+  	100% {
+    opacity: 1;
+  	}
+	}
+	.digital2{
+		font-family: "Oswald", sans-serif;
+		font-size: 33px;
+		font-weight: 200;
+		text-align: center;
+		display: block;
+		margin-top: 2%;
+		letter-spacing: -1px;
+		animation: fade3 12s;
 
+	}
+	@keyframes fade3 {
+		0% {
+    opacity: 0;
+  	}
+  	50% {
+    opacity: 0;
+  	}
+  	60% {
+    opacity: 1;
+  	}
+	}
+	.interactive{
+		font-family: "Playfair Display", serif;
+		font-size: 53px;
+		font-style: italic;
+		font-weight: 600;
+		color: #adb885;
+		animation: fade4 8s ease-out;
+		text-align: center;
+		display: block;
+	}
+	.center{
+		text-align: center;
+	}
+	@keyframes fade4 {
+		0% {
+    	opacity: 0;
+			color: #FFFFFF;
+  	}
+		30%{
+			opacity: 0;
+			color: #F3796F;
+		}
+		40%{
+			opacity: 1;
+			color: #66C18B;
+		}
+  	50% {
+    	opacity: 1;
+			color: #adb885;
+  	}
+		70%{
+			opacity: 1;
+			color: #EFD2D3;
+		}
+  	100% {
+			color: #adb885;
+    	opacity: 1;
+  	}
+	}
+	@keyframes colorchange {
+		0% {
+    opacity: 0;
+  	}
+  	50% {
+    opacity: 0;
+  	}
+  	60% {
+    opacity: 1;
+  	}
+	}
+	.more{
+		font-family: "Oswald", sans-serif;
+		font-size: 37px;
+		color: #DDDDDD;
+		font-weight: 300;
+		margin-top: 6%;
+		letter-spacing: -1px;
+		animation: more 13s ease-out;
+
+		text-align: center;
+		display: block;
+	}
+	@keyframes more {
+		0% {
+    	transform: rotate(0deg);
+			opacity: 0;
+  	}
+
+  	50% {
+			transform: rotate(1deg);
+			opacity: 0;
+  	}
+		60%{
+			transform: rotate(-1deg);
+			opacity: 1;
+		}
+		100% {
+    	transform: rotate(0deg);
+			opacity: 1;
+  	}
+	}
+	.number_top{
+		margin-top: 1%;
+	}
+	.number{
+		font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+		display: inline;
+		letter-spacing: -5px;
+    color: #FFFFFF;
+	}
+	.prj_name{
+		font-family: "Oswald", sans-serif;
+		font-size: 135px;
+		font-weight: 600;
+		letter-spacing: -1px;
+	}
+	.role{
+		font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+		display: inline;
+    color: #404040;
+		margin-top: 1%;
+	}
+	.role2{
+		font-family: "Oswald", sans-serif;
+		font-size: 23px;
+    font-weight: 200;
+		display: inline;
+    color: #404040;
+		letter-spacing: -0.5px;
+	}
+	.prj_details{
+		font-family: "Oswald", sans-serif;
+		font-size: 23px;
+		font-weight: 200;
+		font-style: italic;
+		letter-spacing: -1px;
+		margin-top: 24%;
+		text-align: right;
+		color: #404040;
+		display: block;
+	}
+	.animation-class{
+		animation: index_pht 3s;
+	}
+	.nori_index{
+		margin-top: 22%;
+		cursor: pointer;
+	}
+	.comine_index{
+		margin-top: 22%;
+		cursor: pointer;
+	}
+	.joule_index{
+		margin-top: 22%;
+		cursor: pointer;
+	}
+	.journey_index{
+		margin-top: 17%;
+		cursor: pointer;
+	}
+	.graphic_index{
+		margin-top: 17%;
+		cursor: pointer;
+	}
+	.algo_index{
+		margin-top: 17%;
+		cursor: pointer;
+	}
+	#facebook{
+		width: 4%;
+		margin-top: 1%;
+		margin-right: 1%;
+		animation: fade 2s;
+		cursor: pointer;
+	}
+	#email{
+		width: 4%;
+		margin-top: 1%;
+		margin-right: 1%;
+		animation: fade 2s;
+		cursor: pointer;
+	}
+	#linkedin{
+		width: 4%;
+		margin-top: 1%;
+		margin-right: 1%;
+		animation: fade 2s;
+		cursor: pointer;
+	}
+	@keyframes index_pht {
+		0% {
+    	opacity: 0;
+  	}
+		50%{
+			opacity: 1;
+		}
+		100% {
+    	opacity: 1;
+  	}
+	}
+	.interactive2{
+		font-family: "Playfair Display", serif;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 600;
+		color: #646464;
+		margin-top: 55%;
+		cursor: pointer;
+	}
+	.interactive3{
+		font-family: "Playfair Display", serif;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 600;
+		color: #646464;
+		margin-top: 28%;
+		cursor: pointer;
+	}
+	.interactive4{
+		font-family: "Playfair Display", serif;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 600;
+		color: #646464;
+		margin-top: 65%;
+		cursor: pointer;
+	}
+	#nori_out{
+		text-shadow: -1px 0 #66C18B, 0 1px #66C18B, 1px 0 #66C18B, 0 -1px #66C18B;
+	}
+	#nori{
+		color: #66C18B;
+		letter-spacing: -8px;
+	}
+	#comine_out{
+		text-shadow: -1px 0 #F3796F, 0 1px #F3796F, 1px 0 #F3796F, 0 -1px #F3796F;
+	}
+	#comine{
+		color: #F3796F;
+	}
+	#joule_out{
+		text-shadow: -1px 0 #adb885, 0 1px #adb885, 1px 0 #adb885, 0 -1px #adb885;
+	}
+	#joule{
+		color: #adb885;
+	}
+	#journey_out{
+		text-shadow: -1px 0 #EFD2D3, 0 1px #EFD2D3, 1px 0 #EFD2D3, 0 -1px #EFD2D3;
+	}
+	#journey{
+		font-size: 100px;
+		color: #EFD2D3;
+	}
+	#graphic_out{
+		text-shadow: -1px 0 #B44724, 0 1px #B44724, 1px 0 #B44724, 0 -1px #B44724;
+	}
+	#graphic{
+		color: #B44724;
+		font-size: 100px;
+	}
+	#algo_out{
+		text-shadow: -1px 0 #2F2A51, 0 1px #2F2A51, 1px 0 #2F2A51, 0 -1px #2F2A51;
+	}
+	#algo{
+		color: #2F2A51;
+		font-size: 110px;
+		letter-spacing: -6px;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	.header {
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+	.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+	.hello{
+		margin-top: 40%;
+	}
+	.description{
+		margin-top: 10%;
+	}
+	#about{
+		display: none;
+	}
+	#playground{
+		display: none;
+	}
+	#works{
+		display: none;
+	}
+	#title_mobile{
+		display: block;
+		line-height: 1.3;
+	}
+	#title_screen{
+		display: none;
+	}
+	#secret{
+		display: block;
+		margin-top: 2%;
+	}
+	.header_mobile{
+		display: block;
+	}
+	#soheum{
+		display: none;
+	}
+  .mobile{
+		display: block;
+	}
+	.screen{
+		display: none;
+	}
+	#header_mobile{
+		margin-top: -4%;
+	}
+
+	h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 3.7rem;
+		font-weight: 800;
+		color: #404040;
+	}
+	h2{
+		font-family: "Poppins", sans-serif;
+		font-size: 2.3rem;
+		font-weight: 600;
+		display: inline;
+		color: #404040;
+	}
+	h3{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.7rem;
+		font-weight: 500;
+		color: #404040;
+		line-height: 2rem;
+	}
+	h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		margin-top: 3%;
+		/* display: inline; */
+		font-weight: 200;
+		color: #404040;
+	}
+	.h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.4rem;
+		margin-top: 3%;
+		display: inline;
+		font-weight: 200;
+		color: #404040;
+	}
+		/* didn't use yet */
+	h6{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.3rem;
+		font-weight: 100;
+		text-decoration: underline;
+		font-style: italic;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+		align-items: flex-end;
+		font-size: 1.5rem;
+		font-weight: 100;
+		line-height: 1.3em;
+		color: #404040;
+	}
 }

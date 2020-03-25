@@ -1,85 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160553774-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160553774-1');
+</script>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="stylesheet.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="./js/jquery.onepage-scroll.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/bootstrap-grid.css"/>
+  <link href="stylesheetcopy.css" rel="stylesheet">
+  <link rel="stylesheet" href="onepage-scroll.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script type="text/javascript" src="./js/lib/greensock/TweenMax.min.js"></script>
-	<script type="text/javascript" src="./js/lib/jquery.min.js"></script>
-	<!-- <script type="text/javascript" src="./js/scrollmagic/uncompressed/ScrollMagic.js"></script>
-  <script type="text/javascript" src="./js/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js"></script>
-  <script type="text/javascript" src="./js/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js"></script>
-  <script type="text/javascript" src="./js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script> -->
-  <link rel="stylesheet" href="./css/fullpage.css"/>
-  <script type="text/javascript" src="./js/fullpage.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600i,700i&display=swap" rel="stylesheet">
   <title>SoHeum Portfolio</title>
+  <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+//       var has_fired;
+//       $("html").on("scroll", function () {
+//         if (!has_fired && $(this).scrollTop() >= $("#imgContainer").offset().top) {
+//         $("#noriindex").addClass("animation-class");
+//         has_fired = true; // use this if only want fired once
+//     }
+// });
+    });
+  </script>
 </head>
 <body>
-  <header class="header">
-    <h2 id="soheum" onclick="window.location.href='./indexcopy.html'">So Heum Hwang</h2>
-    <h4 style="float: right;" onclick="window.location.href='./about.html'">about</h4>
-    <h4 style="float: right; margin-right: 3%;" onclick="window.location.href='./work.html'" id="works">works</h4>
-    <h4 style="float: right; margin-right: 3%;" onclick="window.location.href='./playground.html'" id="playground">playground</h4>
-  </header>
-  <div class="mainbody" id="fullpage">
-    <section class="container">
-      <img id = "img_change" class="img_div" src="./img/awards_icon.png" style="display: none;">
-      <div class="hello">
-        <h1>안녕! I'm Soheum.</h1>
-      </div>
-      <div class="description">
-        <h3>Interaction designer & creative coder,</h3><br>
-        <h3>currently studying in Umea Institute of Design</h3>
-      </div>
-      <div class="formore">
-        <h4 style="text-decoration: underline;">scroll down to view projects</h4>
-      </div>
+  <div class="wrapper">
+    <div class="main">
 
-    </section>
+      <section class="page1">
+        <header class="header">
+          <h2 id="soheum" style="cursor: pointer;" onclick="window.location.href='./index.html'">So Heum Hwang</h2>
+          <h4 style="float: right; cursor: pointer;" onclick="window.location.href='./about.html'" id="about">about</h4>
+          <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" id="playground" onclick="window.location.href='./playground2.html'">playground</h4>
+          <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./work.html'" id="works" onclick="window.location.href='./work.html'">works</h4>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <p class="introline">HELLO! I'M SOHEUM.</p>
+              <div class="center">
+              <img id="linkedin" onclick="window.location.href='https://www.linkedin.com/in/so-heum-hwang-1a5722131/'" src="./img/about/linkedin_icon.png" alt="">
+              <a href="mailto:soheum@yonsei.ac.kr"><img id="email" onclick="window.location.href='./index.html'" src="./img/about/gmail_icon.png" alt=""></a>
+              <img id="facebook" onclick="window.location.href='https://www.facebook.com/soheum.hwang'" src="./img/about/facebook_icon.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-xl-12">
+              <p class="digital">I LIKE TO MAKE THINGS DIGITAL WITH</p>
+              <span class="interactive">an interactive touch</span>
+            </div>
+
+            <div class="col-xl-12">
+              <!-- <p class="digital2">(and that touch should bring joy to users!)</p> -->
+            </div>
+
+            <div class="col-xl-12">
+              <p class="more">SCROLL DOWN TO VIEW MORE</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="nori_out">01.</span>
+              <span class="prj_name" id="nori" onclick="window.location.href='./norinuritest.html'"><br>NORINURI</span>
+              <span class="role"><br><br><br>service design | UX/UI design | user testing </span>
+              <span class="role2"><br><br>capstone project  \  2018. 03 - 06  \   3 months</span>
+              <div class="interactive2">
+              <span class="interactive2" onclick="window.location.href='./norinuritest.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="nori_index" onclick="window.location.href='./norinuritest.html'" src="./img/about/nori_index.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page3">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="comine_out">02.</span>
+              <span class="prj_name" id="comine" onclick="window.location.href='./comine.html'"><br>COMINE</span>
+              <span class="role"><br><br><br>service design | UX/UI design | video animation </span>
+              <span class="role2"><br><br>professional product \ 2019. 10 - 11 \  10 weeks</span>
+              <div class="interactive2">
+              <span class="interactive2" onclick="window.location.href='./comine.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="comine_index" onclick="window.location.href='./comine.html'" src="./img/about/comine_index.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page4">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="joule_out">03.</span>
+              <span class="prj_name" id="joule" onclick="window.location.href='./joule.html'"><br>JOULE</span>
+              <span class="role"><br><br><br>UX/UI design | sound design | film making</span>
+              <span class="role2"><br><br>sound design \ 2020. 02 \  2 weeks</span>
+              <div class="interactive2">
+              <span class="interactive2" onclick="window.location.href='./joule.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="joule_index" onclick="window.location.href='./joule.html'" src="./img/about/joule_index2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="journey_out">04.</span>
+              <span class="prj_name" id="journey" onclick="window.location.href='./journey.html'"><br>JOURNEY THROUGH DATA</span>
+              <span class="role"><br><br><br>interaction design | UX/UI design | user testing </span>
+              <span class="role2"><br><br>bachelor thesis \ 2018. 03 - 10 \  8 months</span>
+              <div class="interactive3">
+              <span class="interactive3" onclick="window.location.href='./journey.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="journey_index" onclick="window.location.href='./journey.html'" src="./img/about/journey_index.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page6">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="graphic_out">05.</span>
+              <span class="prj_name" id="graphic" onclick="window.location.href='./graphic.html'"><br>FROM HEXAGON TO SPHERE</span>
+              <span class="role"><br><br><br>graphic design | package design</span>
+              <span class="role2"><br><br>visual system \ 2018. 03 \  4 weeks</span>
+              <div class="interactive3">
+              <span class="interactive3" onclick="window.location.href='./graphic.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="graphic_index" onclick="window.location.href='./graphic.html'" src="./img/about/graphic_index.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page7">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 number_top">
+              <span class="number" id="algo_out">06.</span>
+              <span class="prj_name" id="algo" onclick="window.location.href='./algo.html'"><br>ALGOSTAKES</span>
+              <span class="role"><br><br><br>UX/UI design | brand identity </span>
+              <span class="role2"><br><br>freelance & designer at Finnish startup \ 2019 - 2020 \  2 years</span>
+              <div class="interactive4">
+              <span class="interactive4" onclick="window.location.href='./algo.html'">view details</span>
+              </div>
+            </div>
+            <div class="col-xl-7 number_top">
+              <img class="algo_index" onclick="window.location.href='./algo.html'" src="./img/about/algo_index.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
   </div>
-  <!-- <script src="./js/first.js"></script> -->
-  <script>
-  $('#works').on('click', function(){
-    window.location = "./work.html";
-  });
-  $('#playground').on('click', function(){
-    window.location = "./playground.html";
-  });
-  $('#soheum').on('click', function(){
-    window.location = "./indexcopy.html";
-  });
-  document.addEventListener("mousemove", function(e){
-    var myImages1 = new Array();
-    myImages1[1] = "./img/landing/algo_landing.png";
-    myImages1[2] = "./img/landing/baseball_landing.png";
-    myImages1[3] = "./img/landing/nori_landing.png";
-    myImages1[4] = "./img/landing/data_landing.png";
-    myImages1[5] = "./img/landing/retail_landing.png";
-    myImages1[6] = "./img/landing/baseball_landing.png";
-    myImages1[7] = "./img/landing/comine_landing.png";
-    myImages1[8] = "./img/landing/hexagon_landing.png";
-    myImages1[9] = "./img/landing/insta_landing.png";
-    myImages1[10] = "./img/landing/carui_landing.png";
-    myImages1[11] = "./img/landing/zyga_landing.png";
-    myImages1[12] = "./img/landing/gaja_landing.png";
-    var rnd = Math.floor( Math.random() * myImages1.length );
-    if( rnd == 0) {
-        rnd = 1;
-    }
-    if (e.pageX > 100 && e.pageY > 100){
-      document.getElementById("img_change").style.width = 400 + 'px';
-      document.getElementById("img_change").style.display = "block";
-      document.getElementById("img_change").src = myImages1[rnd];
-      var newX = e.clientX + parseInt(100);
-      document.getElementById("img_change").style.top = e.pageY + 10 + 'px';
-      document.getElementById("img_change").style.left = e.pageX + 10 + 'px';
-    }
-
-
-  });
-
-  </script>
 </body>
 </html>
