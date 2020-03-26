@@ -34,13 +34,7 @@
         responsiveFallback: 600,
         loop: true
       });
-//       var has_fired;
-//       $("html").on("scroll", function () {
-//         if (!has_fired && $(this).scrollTop() >= $("#imgContainer").offset().top) {
-//         $("#noriindex").addClass("animation-class");
-//         has_fired = true; // use this if only want fired once
-//     }
-// });
+
     });
   </script>
 </head>
@@ -49,7 +43,7 @@
     <div class="main">
 
       <section class="page1">
-        <header class="header">
+        <header class="header screen">
           <h2 id="soheum" style="cursor: pointer;" onclick="window.location.href='./index.html'">So Heum Hwang</h2>
           <h4 style="float: right; cursor: pointer;" onclick="window.location.href='./about.html'" id="about">about</h4>
           <h4 style="float: right; margin-right: 3%; cursor: pointer;" onclick="window.location.href='./playground2.html'" id="playground" onclick="window.location.href='./playground2.html'">playground</h4>
@@ -57,6 +51,13 @@
         </header>
         <div class="container">
           <div class="row">
+            <div class="col-xl-12 header_mobile" id="header_mobile">
+              <h2 style="cursor: pointer; font-size: 2.3rem;" onclick="window.location.href='./index.html'">So Heum Hwang</h2><br>
+              <span class="h4" style="float: left; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./about.html'">about<br></span>
+              <span class="h4" style="float: left; margin-left: 3%; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./playground2.html'" onclick="window.location.href='./playground2.html'">playground<br></span>
+              <span class="h4" id="target" style="float: left; margin-left: 3%; cursor: pointer; margin-top: 6%;" onclick="window.location.href='./work.html'" onclick="window.location.href='./work.html'">works</span>
+            </div>
+
             <div class="col-xl-12">
               <p class="introline">HELLO! I'M SOHEUM.</p>
               <div class="center">
@@ -72,10 +73,6 @@
             </div>
 
             <div class="col-xl-12">
-              <!-- <p class="digital2">(and that touch should bring joy to users!)</p> -->
-            </div>
-
-            <div class="col-xl-12">
               <p class="more">SCROLL DOWN TO VIEW MORE</p>
             </div>
           </div>
@@ -85,7 +82,7 @@
       <section class="page2">
         <div class="container">
           <div class="row">
-            <div class="col-xl-5 number_top">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 number_top">
               <span class="number" id="nori_out">01.</span>
               <span class="prj_name" id="nori" onclick="window.location.href='./norinuritest.html'"><br>NORINURI</span>
               <span class="role"><br><br><br>service design | UX/UI design | user testing </span>
@@ -94,7 +91,7 @@
               <span class="interactive2" onclick="window.location.href='./norinuritest.html'">view details</span>
               </div>
             </div>
-            <div class="col-xl-7 number_top">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 number_top">
               <img class="nori_index" onclick="window.location.href='./norinuritest.html'" src="./img/about/nori_index.png" alt="">
             </div>
           </div>
