@@ -139,8 +139,8 @@ table {
 	}
 	.header{
 	margin-top: 6%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 6%;
+	margin-right: 6%;
 	margin-bottom: 2%;
 	}
 	.absolute{
@@ -244,14 +244,22 @@ table {
 		line-height: 1.3em;
     color: #404040;
 	}
+	.introline0{
+		margin-top: 5%;
+	}
 	.introline{
+		font-family: "Poppins", sans-serif;
+		font-size: 65px;
+		font-weight: 600;
+		animation: fade 2s;
+		color: #FFFFFF;
+		text-shadow: -1px 0 #404040, 0 1px #404040, 1px 0 #404040, 0 -1px #404040;
+	}
+	.introline2{
 		font-family: "Oswald", sans-serif;
 		font-size: 65px;
 		font-weight: 600;
-		margin-top: 7%;
 		animation: fade 2s;
-		text-align: center;
-		display: block;
 	}
 	@keyframes fade {
     from {opacity: 0;}
@@ -302,13 +310,11 @@ table {
 	}
 	.interactive{
 		font-family: "Playfair Display", serif;
-		font-size: 53px;
+		font-size: 28px;
 		font-style: italic;
 		font-weight: 600;
 		color: #adb885;
-		animation: fade4 8s ease-out;
-		text-align: center;
-		display: block;
+		animation: fade4 5s ease-out;
 	}
 	.center{
 		text-align: center;
@@ -398,6 +404,17 @@ table {
 		font-weight: 600;
 		letter-spacing: -1px;
 	}
+	#scroll_index{
+		margin-top: 25%;
+	}
+	img{
+		width: 100%;
+	}
+	.indexsketch{
+		width: 55%;
+		margin-top: 13%;
+		margin-left: 35%;
+	}
 	.role{
 		font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -405,6 +422,7 @@ table {
 		display: inline;
     color: #404040;
 		margin-top: 1%;
+		animation: fade2 2s;
 	}
 	.role2{
 		font-family: "Oswald", sans-serif;
@@ -413,6 +431,7 @@ table {
 		display: inline;
     color: #404040;
 		letter-spacing: -0.5px;
+		animation: fade2 2s;
 	}
 	.prj_details{
 		font-family: "Oswald", sans-serif;
@@ -492,6 +511,7 @@ table {
 		color: #646464;
 		margin-top: 55%;
 		cursor: pointer;
+		animation: fade3 2s;
 	}
 	.interactive3{
 		font-family: "Playfair Display", serif;
@@ -618,10 +638,19 @@ table {
 		margin-top: 10%;
 	}
 	.introline{
-		font-family: "Oswald", sans-serif;
+		font-family: "Poppins", sans-serif;
 		font-size: 50px;
 		font-weight: 600;
-		margin-top: 25%;
+		margin-top: 5%;
+		animation: fade 2s;
+		text-align: center;
+		display: block;
+	}
+	.introline2{
+		font-family: "Oswald", sans-serif;
+		font-size: 45px;
+		font-weight: 600;
+		margin-top: 2%;
 		animation: fade 2s;
 		text-align: center;
 		display: block;
@@ -638,14 +667,35 @@ table {
 	}
 	.interactive{
 		font-family: "Playfair Display", serif;
-		font-size: 40px;
+		font-size: 35px;
 		font-style: italic;
 		font-weight: 600;
-		margin-top: 3%;
+		margin-top: 5%;
+		margin-bottom: 2%;
 		color: #adb885;
 		animation: fade4 8s ease-out;
+
+	}
+	.role{
+		font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
 		text-align: center;
 		display: block;
+    color: #404040;
+		line-height: 25px;
+		margin-top: 1%;
+		animation: fade2 2s;
+	}
+	.role2{
+		font-family: "Oswald", sans-serif;
+		font-size: 23px;
+    font-weight: 200;
+		text-align: center;
+		display: block;
+    color: #404040;
+		letter-spacing: -0.5px;
+		animation: fade2 2s;
 	}
 	.more{
 		font-family: "Oswald", sans-serif;
