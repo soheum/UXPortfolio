@@ -637,7 +637,7 @@ table {
 	#header_mobile{
 		margin-top: 10%;
 	}
-	.introline{
+	.introlinemobile{
 		font-family: "Poppins", sans-serif;
 		font-size: 50px;
 		font-weight: 600;
@@ -645,8 +645,10 @@ table {
 		animation: fade 2s;
 		text-align: center;
 		display: block;
+		color: #FFFFFF;
+		text-shadow: -1px 0 #404040, 0 1px #404040, 1px 0 #404040, 0 -1px #404040;
 	}
-	.introline2{
+	.introline2mobile{
 		font-family: "Oswald", sans-serif;
 		font-size: 45px;
 		font-weight: 600;
@@ -676,7 +678,7 @@ table {
 		animation: fade4 8s ease-out;
 
 	}
-	.role{
+	.rolemobile{
 		font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 100;
@@ -687,7 +689,7 @@ table {
 		margin-top: 1%;
 		animation: fade2 2s;
 	}
-	.role2{
+	.role2mobile{
 		font-family: "Oswald", sans-serif;
 		font-size: 23px;
     font-weight: 200;
