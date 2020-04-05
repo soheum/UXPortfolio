@@ -83,8 +83,43 @@ table {
 	#header_mobile{
 		display: none;
 	}
+	.number{
+		font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+		margin-top: 10%;
+    color: #FFFFFF;
+		text-shadow: -0.5px 0 #404040, 0 0.5px #404040, 0.5px 0 #404040, 0 -0.5px #404040;
+	}
+	.category{
+		font-family: "Oswald", sans-serif;
+		font-size: 40px;
+		color: #E1E1E1;
+		font-weight: 600;
+		line-height: 45px;
+		margin-top: 3%;
+	}
+	.category:hover{
+		color: #404040;
+		cursor: pointer;
+	}
+	.row{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.container{
+		max-width:100%;
+		padding-left: 11%;
+		padding-right: 11%;
+	}
+	.row{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
 	.smallcol{
 		padding-top: 2%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	#baseball:hover{
 		max-width: 101%;
@@ -110,12 +145,12 @@ table {
 		max-width: 101%;
 		cursor: pointer;
 	}
-
+/*
   .mainbody{
     display: grid;
     margin-left: 5%;
     margin-right: 5%;
-  }
+  } */
   .header{
     margin-top: 6%;
     margin-left: 5%;
