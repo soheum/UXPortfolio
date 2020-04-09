@@ -83,6 +83,7 @@ table {
 	#header_mobile{
 		display: none;
 	}
+
 	.number{
 		font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -97,15 +98,12 @@ table {
 	.category{
 		font-family: "Oswald", sans-serif;
 		font-size: 40px;
-		color: #E1E1E1;
+		color: #595b5b;
 		font-weight: 600;
 		line-height: 45px;
 		margin-top: 3%;
 	}
-	.category:hover{
-		color: #404040;
-		cursor: pointer;
-	}
+
 	.row{
 		padding-left: 5%;
 		padding-right: 5%;

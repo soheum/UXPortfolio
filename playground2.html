@@ -31,28 +31,92 @@
         <p class="number">01.</p>
         <p class="category">UI / UX</p>
 
-        <img style="margin-top: 17%;" class="cursor" onclick="window.location.href='https://algostakes.xyz/'" src="./img/playground/uiux1.png" alt="">
-        <img src="./img/playground/uiux2.png" alt="">
-        <img class="cursor" onclick="window.location.href='https://www.helsinkidesignweek.com/series/weekly-pics-marimekko-designathon/'" src="./img/playground/uiux3.png" alt="">
+        <img style="margin-top: 17%;" onmouseover="hover(this);" onmouseout="unhover(this);" id="uiux1" class="cursor" onclick="window.location.href='https://algostakes.xyz/'" src="./img/playground/uiux1-2.png" alt="">
+        <img onmouseover="hover2(this);" onmouseout="unhover2(this);" src="./img/playground/uiux2-2.png" alt="">
+        <img class="cursor" onmouseover="hover3(this);" onmouseout="unhover3(this);" onclick="window.location.href='https://www.helsinkidesignweek.com/series/weekly-pics-marimekko-designathon/'" src="./img/playground/uiux3-2.png" alt="">
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <p class="number">02.</p>
         <p class="category">INTERACTIVE <br> WEB</p>
-        <img class="cursor" style="margin-top: 7%;" onclick="window.location.href='https://soheum.github.io/gaja/'" src="./img/playground/web1.png" alt="">
-        <img class="cursor" onclick="window.location.href='http://ybigtabaseball.ga/'" src="./img/playground/web2.png" alt="">
-        <img class="cursor" onclick="window.location.href='https://treble-in-ybigta.github.io/conference/'" src="./img/playground/web3.png" alt="">
+        <img class="cursor" onmouseover="hover4(this);" onmouseout="unhover4(this);" style="margin-top: 7%;" onclick="window.location.href='https://soheum.github.io/gaja/'" src="./img/playground/web1-2.png" alt="">
+        <img class="cursor" onmouseover="hover5(this);" onmouseout="unhover5(this);" onclick="window.location.href='http://ybigtabaseball.ga/'" src="./img/playground/web2-2.png" alt="">
+        <img class="cursor" onmouseover="hover6(this);" onmouseout="unhover6(this);" onclick="window.location.href='https://treble-in-ybigta.github.io/conference/'" src="./img/playground/web3-2.png" alt="">
       </div>
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
         <p class="number">03.</p>
         <p class="category">DATA <br> VISUALIZATION</p>
-        <img class="cursor" onlink="window.location.href='https://drive.google.com/file/d/1A6SIlEQcNfOevQxE2MmTyD6RH-CeSFzR/view?usp=sharing'" src="./img/playground/data2.png" alt="">
-        <img class="cursor" onlink="window.location.href='https://drive.google.com/drive/folders/1DhTR6YY49L_fM-JYg18MRnnVZ749QSqx?usp=sharing'" src="./img/playground/data3.png" alt="">
-        <img style="margin-top: 7%;" src="./img/playground/data1.png" alt="">
+        <img class="cursor" onmouseover="hover7(this);" onmouseout="unhover7(this);" onlink="window.location.href='https://drive.google.com/file/d/1A6SIlEQcNfOevQxE2MmTyD6RH-CeSFzR/view?usp=sharing'" src="./img/playground/data2-2.png" alt="">
+        <img class="cursor" onmouseover="hover8(this);" onmouseout="unhover8(this);" onlink="window.location.href='https://drive.google.com/drive/folders/1DhTR6YY49L_fM-JYg18MRnnVZ749QSqx?usp=sharing'" src="./img/playground/data3-2.png" alt="">
+        <img style="margin-top: 7%;" onmouseover="hover9(this);" onmouseout="unhover9(this);" src="./img/playground/data1-2.png" alt="">
       </div>
     </div>
 
     </div>
   </div>
+  <script>
+  function hover(element) {
+    element.setAttribute('src', './img/playground/uiux1.png');
+  }
+  function unhover(element) {
+    element.setAttribute('src', './img/playground/uiux1-2.png');
+  }
+
+  function hover2(element) {
+    element.setAttribute('src', './img/playground/uiux2.png');
+  }
+  function unhover2(element) {
+    element.setAttribute('src', './img/playground/uiux2-2.png');
+  }
+
+  function hover3(element) {
+    element.setAttribute('src', './img/playground/uiux3.png');
+  }
+  function unhover3(element) {
+    element.setAttribute('src', './img/playground/uiux3-2.png');
+  }
+
+  function hover4(element) {
+    element.setAttribute('src', './img/playground/web1.png');
+  }
+  function unhover4(element) {
+    element.setAttribute('src', './img/playground/web1-2.png');
+  }
+
+  function hover5(element) {
+    element.setAttribute('src', './img/playground/web2.png');
+  }
+  function unhover5(element) {
+    element.setAttribute('src', './img/playground/web2-2.png');
+  }
+
+  function hover6(element) {
+    element.setAttribute('src', './img/playground/web3.png');
+  }
+  function unhover6(element) {
+    element.setAttribute('src', './img/playground/web3-2.png');
+  }
+
+  function hover7(element) {
+    element.setAttribute('src', './img/playground/data2.png');
+  }
+  function unhover7(element) {
+    element.setAttribute('src', './img/playground/data2-2.png');
+  }
+
+  function hover8(element) {
+    element.setAttribute('src', './img/playground/data3.png');
+  }
+  function unhover8(element) {
+    element.setAttribute('src', './img/playground/data3-2.png');
+  }
+
+  function hover9(element) {
+    element.setAttribute('src', './img/playground/data1.png');
+  }
+  function unhover9(element) {
+    element.setAttribute('src', './img/playground/data1-2.png');
+  }
+  </script>
 
 
 
