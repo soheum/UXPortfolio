@@ -91,6 +91,9 @@ table {
     color: #FFFFFF;
 		text-shadow: -0.5px 0 #404040, 0 0.5px #404040, 0.5px 0 #404040, 0 -0.5px #404040;
 	}
+	.cursor{
+		cursor: pointer;
+	}
 	.category{
 		font-family: "Oswald", sans-serif;
 		font-size: 40px;
