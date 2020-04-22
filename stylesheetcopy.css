@@ -638,7 +638,24 @@ table {
 	.header_mobile{
 		display: block;
 	}
-
+	.nori_index{
+		margin-top: 5%;
+	}
+	.comine_index{
+		margin-top: 5%;
+	}
+	.joule_index{
+		margin-top: 5%;
+	}
+	.journey_index{
+		margin-top: 5%;
+	}
+	.graphic_index{
+		margin-top: 5%;
+	}
+	.algo_index{
+		margin-top: 5%;
+	}
 	#header_mobile{
 		margin-top: 10%;
 	}
@@ -764,10 +781,13 @@ table {
 		font-size: 50px;
 	}
 	#graphic{
-		font-size: 50px;
+		font-size: 45px;
 	}
 	#algo{
 		font-size: 70px;
+	}
+	.page6{
+		margin-top: 15%;
 	}
 	.nori_index{
 		left: 50%;
