@@ -134,8 +134,9 @@ table {
   }
   #graphic{
     position: absolute;
-    max-height: 100%;
-		margin-left: 10%;
+    /* height: 40%; */
+		max-width: 20%;
+		margin-left: 15%;
   }
 	.retail{
 		grid-row: 8/9;

@@ -38,8 +38,8 @@ $(document).ready(function() {
 
   $('.journey').mousemove(
     function(e){
-      $(document.body).css('background-color', '#F3796F');
-      $('#comine').fadeIn();
+      $(document.body).css('background-color', '#adb885');
+      $('#joule').fadeIn();
       $('.journey h3').css('color', '#FFFFFF');
       $('.journey h3').css('font-weight', '600');
       $('.journey h6').css('color', '#FFFFFF');
@@ -52,17 +52,17 @@ $(document).ready(function() {
       $('.journey h3').css('font-weight', '300');
       $('.journey h6').css('color', '#404040');
       $('.journey h6').css('font-weight', '100');
-      $('#comine').fadeOut();
+      $('#joule').fadeOut();
     }
   );
   $('.journey').on('click', function(){
-    window.location = "./comine.html";
+    window.location = "./joule.html";
   });
 
   $('.comine').mousemove(
     function(e){
-      $(document.body).css('background-color', '#adb885');
-      $('#joule').fadeIn();
+      $(document.body).css('background-color', '#F3796F');
+      $('#comine').fadeIn();
       $('.comine h3').css('color', '#FFFFFF');
       $('.comine h3').css('font-weight', '600');
       $('.comine h6').css('color', '#FFFFFF');
@@ -75,11 +75,11 @@ $(document).ready(function() {
       $('.comine h3').css('font-weight', '300');
       $('.comine h6').css('color', '#404040');
       $('.comine h6').css('font-weight', '100');
-      $('#joule').fadeOut();
+      $('#comine').fadeOut();
     }
   );
   $('.comine').on('click', function(){
-    window.location = "./joule.html";
+    window.location = "./comine.html";
   });
 
   $('.algo').mousemove(
