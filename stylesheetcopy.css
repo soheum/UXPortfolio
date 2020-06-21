@@ -250,15 +250,7 @@ table {
     color: #404040;
 	}
 	.introline0{
-		margin-top: 5%;
-	}
-	.introline{
-		font-family: "Poppins", sans-serif;
-		font-size: 65px;
-		font-weight: 600;
-		animation: fade 2s;
-		color: #FFFFFF;
-		text-shadow: -1px 0 #404040, 0 1px #404040, 1px 0 #404040, 0 -1px #404040;
+		margin-top: 10%;
 	}
 	.introline2{
 		font-family: "Oswald", sans-serif;
@@ -431,12 +423,23 @@ table {
 	}
 	.role2{
 		font-family: "Oswald", sans-serif;
-		font-size: 23px;
+		font-size: 20px;
+    font-weight: 300;
+		display: inline;
+    color: #404040;
+		line-height: 30px;
+		animation: fade2 2s;
+		margin-top: 35%;
+	}
+	.role3{
+		font-family: "Poppins", sans-serif;
+    font-size: 17px;
     font-weight: 200;
 		display: inline;
     color: #404040;
-		letter-spacing: -0.5px;
+		margin-top: 1%;
 		animation: fade2 2s;
+		line-height: 32px;
 	}
 	.prj_details{
 		font-family: "Oswald", sans-serif;
@@ -674,7 +677,7 @@ table {
 		font-family: "Oswald", sans-serif;
 		font-size: 45px;
 		font-weight: 600;
-		margin-top: 2%;
+		margin-top: 10%;
 		animation: fade 2s;
 		text-align: center;
 		display: block;
@@ -711,15 +714,16 @@ table {
 		margin-top: 1%;
 		animation: fade2 2s;
 	}
-	.role2mobile{
-		font-family: "Oswald", sans-serif;
-		font-size: 23px;
-    font-weight: 200;
+	.role3mobile{
+		font-family: "Poppins", sans-serif;
+		font-size: 15px;
+		font-weight: 200;
 		text-align: center;
 		display: block;
-    color: #404040;
-		letter-spacing: -0.5px;
+		color: #404040;
+		margin-top: 1%;
 		animation: fade2 2s;
+		line-height: 27px;
 	}
 	.more{
 		font-family: "Oswald", sans-serif;
