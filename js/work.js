@@ -1,4 +1,4 @@
-document.getElementById("graphic").style.width = 500 + 'px';
+document.getElementById("seam").style.width = 500 + 'px';
 document.getElementById("norinuri").style.width = 300 + 'px';
 document.getElementById("journey").style.width = 400 + 'px';
 document.getElementById("comine").style.width = 400 + 'px';
@@ -7,7 +7,7 @@ document.getElementById("algo").style.width = 400 + 'px';
 
 
 $(document).ready(function() {
-  $('#graphic').hide();
+  $('#seam').hide();
   $('#norinuri').hide();
   $('#journey').hide();
   $('#comine').hide();
@@ -15,8 +15,8 @@ $(document).ready(function() {
   $('#joule').hide();
   $('.norinuri').mousemove(
     function(e){
-      $(document.body).css('background-color', '#66C18B');
-      $('#norinuri').fadeIn();
+      $(document.body).css('background-color', '#adb885');
+      $('#joule').fadeIn();
       $('.norinuri h3').css('color', '#FFFFFF');
       $('.norinuri h3').css('font-weight', '600');
       $('.norinuri h6').css('color', '#FFFFFF');
@@ -25,7 +25,7 @@ $(document).ready(function() {
   $('.norinuri').mouseleave(
     function(){
       $(document.body).css('background-color', '#FFFFFF');
-      $('#norinuri').fadeOut();
+      $('#joule').fadeOut();
       $('.norinuri h3').css('color', '#404040');
       $('.norinuri h3').css('font-weight', '300');
       $('.norinuri h6').css('color', '#404040');
@@ -33,13 +33,13 @@ $(document).ready(function() {
     }
   );
   $('.norinuri').on('click', function(){
-    window.location = "./norinuritest.html";
+    window.location = "./joule.html";
   });
 
   $('.journey').mousemove(
     function(e){
-      $(document.body).css('background-color', '#adb885');
-      $('#joule').fadeIn();
+      $(document.body).css('background-color', '#F3796F');
+      $('#comine').fadeIn();
       $('.journey h3').css('color', '#FFFFFF');
       $('.journey h3').css('font-weight', '600');
       $('.journey h6').css('color', '#FFFFFF');
@@ -52,17 +52,17 @@ $(document).ready(function() {
       $('.journey h3').css('font-weight', '300');
       $('.journey h6').css('color', '#404040');
       $('.journey h6').css('font-weight', '100');
-      $('#joule').fadeOut();
+      $('#comine').fadeOut();
     }
   );
   $('.journey').on('click', function(){
-    window.location = "./joule.html";
+    window.location = "./comine.html";
   });
 
   $('.comine').mousemove(
     function(e){
-      $(document.body).css('background-color', '#F3796F');
-      $('#comine').fadeIn();
+      $(document.body).css('background-color', '#BFD4D1');
+      $('#seam').fadeIn();
       $('.comine h3').css('color', '#FFFFFF');
       $('.comine h3').css('font-weight', '600');
       $('.comine h6').css('color', '#FFFFFF');
@@ -75,17 +75,17 @@ $(document).ready(function() {
       $('.comine h3').css('font-weight', '300');
       $('.comine h6').css('color', '#404040');
       $('.comine h6').css('font-weight', '100');
-      $('#comine').fadeOut();
+      $('#seam').fadeOut();
     }
   );
   $('.comine').on('click', function(){
-    window.location = "./comine.html";
+    window.location = "./seam.html";
   });
 
   $('.algo').mousemove(
     function(e){
-      $(document.body).css('background-color', '#EFD2D3');
-      $('#journey').fadeIn();
+      $(document.body).css('background-color', '#66C18B');
+      $('#norinuri').fadeIn();
       $('.algo h3').css('color', '#FFFFFF');
       $('.algo h3').css('font-weight', '600');
       $('.algo h6').css('color', '#FFFFFF');
@@ -98,17 +98,17 @@ $(document).ready(function() {
       $('.algo h3').css('font-weight', '300');
       $('.algo h6').css('color', '#404040');
       $('.algo h6').css('font-weight', '100');
-      $('#journey').fadeOut();
+      $('#norinuri').fadeOut();
     }
   );
   $('.algo').on('click', function(){
-    window.location = "./journey.html";
+    window.location = "./norinuritest.html";
   });
 
   $('.graphic').mousemove(
     function(e){
-      $(document.body).css('background-color', '#B44724');
-      $('#graphic').fadeIn();
+      $(document.body).css('background-color', '#EFD2D3');
+      $('#journey').fadeIn();
       $('.graphic h3').css('color', '#FFFFFF');
       $('.graphic h3').css('font-weight', '600');
       $('.graphic h6').css('color', '#FFFFFF');
@@ -121,11 +121,11 @@ $(document).ready(function() {
       $('.graphic h3').css('font-weight', '300');
       $('.graphic h6').css('color', '#404040');
       $('.graphic h6').css('font-weight', '100');
-      $('#graphic').fadeOut();
+      $('#journey').fadeOut();
     }
   );
   $('.graphic').on('click', function(){
-    window.location = "./graphic.html";
+    window.location = "./journey.html";
   });
   $('.retail').mousemove(
     function(e){

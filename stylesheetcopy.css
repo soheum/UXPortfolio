@@ -110,9 +110,8 @@ table {
 		cursor: pointer;
 		width: 105%;
 	}
-	#graphic:hover{
+	#seam:hover{
 		cursor: pointer;
-		width: 135%;
 	}
 	#algo:hover{
 		cursor: pointer;
@@ -565,11 +564,11 @@ table {
 		font-size: 100px;
 		color: #EFD2D3;
 	}
-	#graphic_out{
-		text-shadow: -1px 0 #B44724, 0 1px #B44724, 1px 0 #B44724, 0 -1px #B44724;
+	#seam_out{
+		text-shadow: -1px 0 #BFD4D1, 0 1px #BFD4D1, 1px 0 #BFD4D1, 0 -1px #BFD4D1;
 	}
-	#graphic{
-		color: #B44724;
+	#seam{
+		color: #BFD4D1;
 		font-size: 100px;
 	}
 	#algo_out{

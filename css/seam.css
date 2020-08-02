@@ -1,0 +1,488 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*데스크탑*/
+@media screen{
+  #playground:hover{
+    font-weight: 500;
+  }
+  #about:hover{
+    font-weight: 500;
+  }
+	#playground{
+		font-size: 1.7rem;
+	}
+	#works{
+		font-size: 1.7rem;
+	}
+	#soheum:hover{
+    font-weight: 900;
+  }
+  #about:hover{
+    font-weight: 500;
+  }
+	#prev{
+		cursor: pointer;
+	}
+	#prev:hover{
+		font-weight: 500;
+	}
+	#previous{
+		cursor: pointer;
+	}
+	#nex{
+		text-align: right;
+		cursor: pointer
+	}
+	#nex:hover{
+		font-weight: 500;
+	}
+	#next{
+		cursor: pointer;
+	}
+	.maintitle{
+    padding-top: 8%;
+  }
+	.hmwtitle{
+		text-align: center;
+		padding-top: 13%;
+	}
+	.maincontent{
+		padding-top: 5%;
+	}
+	.landing{
+		margin-top: 3%;
+	}
+	.landing_img img{
+		margin-top: -10%;
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+	}
+	.subcol{
+		padding-top: 3%;
+	}
+	.subcol2{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.hmw{
+		text-align: center;
+	}
+	.hmw p{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		/* margin-top: 6%; */
+		font-size: 15px;
+	}
+  .mainindex{
+		padding-top: 10%;
+	}
+	.bodycontent{
+		padding-top: 9%;
+	}
+	.smallcol{
+		padding-top: 1%;
+	}
+	.abstract img{
+		max-width: 70%;
+		margin-left: 14%;
+	}
+	.abstract p{
+		line-height: 1.6;
+	}
+	.abstract_img{
+		margin-top: -10%;
+	}
+	.sustain p{
+		line-height: 1.6;
+	}
+	.geometric p{
+		line-height: 1.6;
+	}
+	.sustain img{
+		max-width: 70%;
+		margin-left: 12%;
+	}
+	/* .geometric img{
+		max-width: 50%;
+		margin-left: 25%;
+	} */
+	.sustain h5{
+		margin-top: 5%;
+	}
+	.abstract h5{
+		margin-top: -2%;
+	}
+	.geometric h5{
+		margin-top: 2%;
+	}
+  html{
+    font-size: 10px;
+    height: 100vh;
+  }
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	video{
+		max-width: 100%;
+    max-height: 100%;
+	}
+	.mobile{
+		display: none;
+	}
+	.screen{
+		display: block;
+	}
+	.header_mobile{
+		display: none;
+	}
+
+  .header{
+    margin-top: 6%;
+    margin-left: 5%;
+		margin-right: 5%;
+    margin-bottom: 2%;
+  }
+	.deliverfeat{
+		margin-top: 3%;
+		line-height: 1.7;
+	}
+  svg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #404040;
+  }
+  h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+		display: inline;
+    color: #404040;
+  }
+	.center{
+		display: block;
+		text-align: center;
+	}
+	.h2_title{
+		font-family: 'Cormorant Upright', serif;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+    color: #404040;
+	}
+  h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #404040;
+  }
+  h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: #404040;
+		/* display: inline; */
+  }
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #404040;
+    margin-bottom: 1.5%;
+  }
+  h6{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+    margin-bottom: 3.5%;
+  }
+	p{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: 100;
+		line-height: 1.9;
+    color: #404040;
+	}
+  p strong{
+    font-weight: 300;
+  }
+	h7{
+		font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    font-size: 21px;
+    font-weight: 400;
+		line-height: 1.3em;
+    color: #adb885;
+	}
+	h8{
+		font-family: "Poppins", sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+    color: #404040;
+    margin-bottom: 1.5%;
+	}
+
+	#next{
+		text-align: right;
+	}
+	.description{
+		margin-top: 8%;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.description2{
+		margin-top: 3%;
+		font-family: "Poppins", sans-serif;
+		font-size: 17px;
+		line-height: 1.5;
+		color: #404040;
+	}
+	.description strong{
+		font-weight: 300;
+		font-size: 17px;
+	}
+	.landing_title{
+		font-family: "Poppins", sans-serif;
+		font-size: 14px;
+		line-height: 1.5;
+		color: #afaeae;
+		text-align: center;
+	}
+	.hmw_q{
+		font-family: 'Cormorant Upright', serif;
+		font-weight: 500;
+		line-height: 1.3;
+		text-align: center;
+		/* margin-top: 6%; */
+		font-size: 25px;
+	}
+	.colored{
+		display: block;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-top: 12%;
+    margin-left: 10%;
+		margin-right: 10%;
+    margin-bottom: 2%;
+  }
+	.row{
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	img {
+    max-width: 100%;
+    max-height: 100%;
+	}
+	p strong{
+		font-weight: 300;
+	}
+	.container{
+		width: 100;
+	}
+	.maintitle{
+		margin-top: 5%;
+	}
+	.discover_mobile{
+		margin-top: 10%;
+	}
+	.mobile{
+		display: block;
+		line-height: 3rem;
+	}
+	.mobile_key{
+		margin-top: 20%;
+	}
+	.hmw{
+		margin-top: 5%;
+	}
+	.screen{
+		display: none;
+	}
+	.screen iframe{
+		display: none;
+	}
+	.mobile iframe{
+		display: block;
+	}
+	.header_mobile{
+		display: block;
+	}
+	.jouleh1{
+		margin-top: 20%;
+	}
+	#about{
+		display: none;
+	}
+	#playground{
+		display: none;
+	}
+	#works{
+		display: none;
+	}
+	#soheum{
+		display: none;
+	}
+	#header_mobile{
+		margin-top: -4%;
+	}
+	.feature_mobile{
+		margin-top: 7%;
+	}
+	.description2{
+		margin-top: 0;
+	}
+	.responsive{
+		margin-top: -4%;
+	}
+	.header_mobile{
+		display: block;
+	}
+
+	#nex{
+		text-align: left;
+		cursor: pointer
+	}
+	#next{
+		text-align: left;
+		margin-top: 7%;
+	}
+	h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2.5rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	.h1{
+		font-family: "Poppins", sans-serif;
+		font-size: 2rem;
+		font-weight: 600;
+		color: #404040;
+	}
+	h2{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.7rem;
+		font-weight: 600;
+		display: inline;
+		color: #404040;
+	}
+	h3{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		font-weight: 500;
+		color: #404040;
+		line-height: 2rem;
+	}
+	h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.5rem;
+		margin-top: 3%;
+		/* display: inline; */
+		font-weight: 400;
+		color: #404040;
+	}
+	.h4{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.4rem;
+		display: inline;
+		font-weight: 200;
+		color: #404040;
+	}
+	h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #404040;
+  }
+		/* didn't use yet */
+	h6{
+		font-family: "Poppins", sans-serif;
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin-top: 2%;
+		color: #404040;
+		margin-bottom: 1.5%;
+	}
+	h7{
+		font-size: 1.5rem;
+	}
+	#selected{
+		font-weight: 400;
+		font-size: 1.7rem;
+		color: #FFDE3A;
+	}
+	p{
+		font-family: "Poppins", sans-serif;
+		align-items: flex-end;
+		font-size: 1.3rem;
+		font-weight: 100;
+		line-height: 1.8rem;
+		color: #404040;
+	}
+}
